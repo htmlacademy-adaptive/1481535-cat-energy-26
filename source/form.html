@@ -9,37 +9,67 @@
 <body class="page__body">
   <header class="inner__page-header">
     <div class="inner__page-header__wrapper">
-    <a class="main-header__logo" href="">
-      <img class="main__header__logo-image" src="img/logotype-phone.svg" width="34" height="37"
-        alt="Логотип Cat Energy">
-      <img class="main__header__logo-text" src="img/" width="101" height="18" alt="Название магазина">
-    </a>
-    <nav class="main-nav">
-      <button class="main-nav__toggle" type="button">
-        <span class="visually-hidden">Открыть меню</span>
-      </button>
-      <div class="main-nav__wrapper">
-        <ul class="main-nav__list site-list">
-          <li class="site-list__item site-list__item--current">
-            <a href="#">
-              Главная
-            </a>
-          </li>
-          <li class="site-list__item">
-            <a href="catalog.html">
-              Каталог продукции
-            </a>
-          </li>
-          <li class="site-list__item">
-            <a href="form.html">
-              Подбор программы
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </div>
+      <a class="main-header__logo" href="">
+        <img class="main__header__logo-image" src="img/logotype-phone.svg" width="34" height="37"
+          alt="Логотип Cat Energy">
+        <img class="main__header__logo-text" src="img/" width="101" height="18" alt="Название магазина">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item site-list__item--current">
+              <a href="#">
+                Главная
+              </a>
+            </li>
+            <li class="site-list__item">
+              <a href="catalog.html">
+                Каталог продукции
+              </a>
+            </li>
+            <li class="site-list__item">
+              <a href="form.html">
+                Подбор программы
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
   </header>
+
+  <main class="inner__page-main">
+    <h1 class="inner__page-main__title">
+      Подбор программы
+    </h1>
+    <p class="inner__page-main__description">
+      Заполните анкету, и мы подберем
+      программу питания для вашего кота
+    </p>
+
+    <form class="personal-data" action="https://echo.htmlacademy.ru" method="post">
+      <p>
+        <label class="personal-data__name">Имя:*
+          <input class="personal-data__name-field" type="text" name="name" placeholder="БАРСИК">
+        </label>
+      </p>
+      <p>
+        <label class="personal-data__weight">Вес (кг):*
+          <input class="personal-data__weight-field" type="text" name="weight" placeholder="7">
+        </label>
+      </p>
+      <p>
+        <label class="personal-data__age">Возраст (лет):
+          <input class="personal-data__age-field" type="text" name="age" placeholder="7">
+        </label>
+      </p>
+
+
+    </form>
+  </main>
 
 
 
