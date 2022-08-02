@@ -82,7 +82,8 @@
           </li>
           <li class="program-selection__item">
             <label class="program-selection__option">
-              <input class="program-selection__field" type="radio" name="program" value="advice">Не знаю (Нужен ваш совет)
+              <input class="program-selection__field" type="radio" name="program" value="advice">Не знаю (Нужен ваш
+              совет)
             </label>
           </li>
         </ul>
@@ -96,13 +97,13 @@
         <p>
           <label class="contacts-information__description"> E-mail:*
             <input class="contacts-information__email contacts-information__email-icon" type="email" name="email"
-            placeholder="kuklachev@gmail.com">
+              placeholder="kuklachev@gmail.com">
           </label>
         </p>
         <p>
           <label class="contacts-information__description">Телефон:*
             <input class="contacts-information__number contacts-information__number-icon" type="tel" name="phone"
-            placeholder="8 (960) 900-60-90">
+              placeholder="8 (960) 900-60-90">
           </label>
         </p>
       </fieldset>
@@ -112,17 +113,42 @@
           Комментарий
         </legend>
         <p>
-          <textarea class="comment__input" name="comment__field" rows="6" cols="50" placeholder="Расскажите обо всех повадках кота"></textarea>
+          <textarea class="comment__input" name="comment__field" rows="6" cols="50"
+            placeholder="Расскажите обо всех повадках кота"></textarea>
         </p>
       </fieldset>
 
-
-
-
+      <fieldset class="extra-food">
+        <legend class="extra-food__title">
+          Дополнительно
+        </legend>
+        <ul class="extra-food__list">
+          <li class="extra-food__item">
+            <label class="extra-food__description">
+              <input class="extra-food__checkbox" type="checkbox" name="sweetener" checked>сахарозаменитель
+            </label>
+          </li>
+          <li class="extra-food__item">
+            <label class="extra-food__description">
+              <input class="extra-food__checkbox" type="checkbox" name="drinking-water">питьевая вода
+            </label>
+          </li>
+          <li class="extra-food__item">
+            <label class="extra-food__description">
+              <input class="extra-food__checkbox" type="checkbox" name="milk">молоко
+            </label>
+          </li>
+          <li class="extra-food__item">
+            <label class="extra-food__description">
+              <input class="extra-food__checkbox" type="checkbox" name="vitamins">витамины
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+      <button class="button__form" type="submit">отправить заявку</button>
     </form>
+    <span class="fieldset__required">* — Обязательные поля</span>
   </main>
-
-
 
   <footer class="main-footer main-footer__wrapper">
     <div class="main-footer__address address">
