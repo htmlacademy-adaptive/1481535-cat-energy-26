@@ -1,0 +1,48 @@
+.program {
+  background-color: $bg-program;
+  padding: 30px 33px 18px 20px;
+}
+
+.program--loss {
+  margin-bottom: 20px;
+}
+.program__title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 37px;
+  text-transform: uppercase;
+  text-align: center;
+
+  margin: 0;
+  margin-bottom: 29px;
+}
+
+.program__description {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0;
+  margin-bottom: 15px;
+  padding-bottom: 23px;
+
+  color: $special_dark-grey;
+
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.program__link {
+  font: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: $color-default-black;
+  background-color: transparent;
+
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
