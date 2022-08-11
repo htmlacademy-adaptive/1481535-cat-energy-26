@@ -1,3 +1,11 @@
 .header {
-  background-color: #052386;
+  background-color: $bg-color-default;
+
+  padding: 10px 20px 18px;
+}
+.header__logo-image {
+  margin-right: 56px;
+}
+.header__logo-text {
+  margin-right: 65px;
 }
