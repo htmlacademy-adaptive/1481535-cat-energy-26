@@ -1,0 +1,38 @@
+.advantages {
+  background-color: $bg-color-default;
+  padding-bottom: 50px;
+}
+
+.advantages__title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+
+  color: $color-default-black;
+
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.advantages__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.advantages__item {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: $special_dark-grey;
+
+  padding-left: 80px;
+  margin-bottom: 20px;
+}
+
+.advantages__item:last-child {
+  margin-bottom:0 ;
+}
