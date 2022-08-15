@@ -1,6 +1,7 @@
 .intro {
-  padding: 27px 20px 0px;
   position: relative;
+  padding-top: 27px;
+  padding-bottom: 20px;
 }
 .intro::before {
   content: "";
@@ -43,6 +44,11 @@
   text-align: center;
   margin: 0;
   margin-bottom: 29px;
+}
+
+.intro__image {
+  display:block;
+  margin:auto
 }
 
 .intro__button {

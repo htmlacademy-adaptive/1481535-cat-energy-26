@@ -10,48 +10,57 @@
 <body class="page__body">
   <div class="page-intro">
     <header class="header">
-      <a class="header__logo" href="#">
-        <img class="header__logo-image" src="img/mobile/logo-header-mobile.svg" width="34" height="37" alt="Логотип Cat Energy.">
-        <img class="header__logo-text" src="img/mobile/logo-name.svg" width="101" height="18" alt="Название магазина.">
-      </a>
-      <nav class="main-nav">
-        <button class="main-nav__toggle" type="button">
-          <span class="visually-hidden">Открыть меню.</span>
-        </button>
-        <div class="main-nav__wrapper">
-          <ul class="main-nav__list site-list">
-            <li class="site-list__item site-list__item--current">
-              <a class="site-list__link" href="#">
-                Главная
-              </a>
-            </li>
-            <li class="site-list__item">
-              <a class="site-list__link" href="catalog.html">
-                Каталог продукции
-              </a>
-            </li>
-            <li class="site-list__item">
-              <a class="site-list__link" href="form.html">
-                Подбор программы
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <div class="container">
+        <a class="header__logo" href="#">
+          <img class="header__logo-image" src="img/mobile/logo-header-mobile.svg" width="34" height="37"
+            alt="Логотип Cat Energy.">
+          <img class="header__logo-text" src="img/mobile/logo-name.svg" width="101" height="18"
+            alt="Название магазина.">
+        </a>
+        <nav class="main-nav">
+          <button class="main-nav__toggle" type="button">
+            <span class="visually-hidden">Открыть меню.</span>
+          </button>
+          <div class="main-nav__wrapper">
+            <ul class="main-nav__list site-list">
+              <li class="site-list__item site-list__item--current">
+                <a class="site-list__link" href="#">
+                  Главная
+                </a>
+              </li>
+              <li class="site-list__item">
+                <a class="site-list__link" href="catalog.html">
+                  Каталог продукции
+                </a>
+              </li>
+              <li class="site-list__item">
+                <a class="site-list__link" href="form.html">
+                  Подбор программы
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </header>
     <section class="intro">
-      <h1 class="intro__title">
-        Функциональное питание для котов
-      </h1>
-      <p class="intro__tagline">
-        Занялся собой? Займись котом!
-      </p>
-      <img class="intro__image" src="img/mobile/index-feed-mobile.png" width="280" height="270" alt="Корм для котов.">
-      <a class="intro__button button" href="#">подобрать программу</a>
+      <div class="container">
+        <h1 class="intro__title">
+          Функциональное питание для котов
+        </h1>
+        <p class="intro__tagline">
+          Занялся собой? Займись котом!
+        </p>
+        <img class="intro__image" src="img/mobile/index-feed-mobile.png" width="280" height="270" alt="Корм для котов.">
+        <a class="intro__button button" href="#">подобрать программу</a>
+      </div>
     </section>
   </div>
   <main class="main-container">
-    <section class="programs">
+    <section class="programs container">
+      <h2 class="visually-hidden">
+        Программы для котов
+      </h2>
       <article class="programs__article program program--loss">
         <h2 class="program__title">
           Похудение
@@ -73,76 +82,80 @@
         <a class="program__link" href="#">каталог pro</a>
       </article>
     </section>
-    <section class="advantages container">
-      <h2 class="advantages__title">
-        Как это работает
-      </h2>
-      <ul class="advantages__list advantages__list--view">
-        <li class="advantages__item advantages__item--healthy-food">
-          Функциональное питание
-          содержит только полезные
-          питательные вещества.
-        </li>
-        <li class="advantages__item advantages__item--powder-form">
-          Выпускается в виде порошка,
-          который нужно лишь залить
-          кипятком и готово.
-        </li>
-        <li class="advantages__item advantages__item--power-replacement">
-          Замените один-два приема
-          обычной еды на наше
-          функциональное питание.
-        </li>
-        <li class="advantages__item advantages__item--result">
-          Уже через месяц наслаждайтесь
-          изменениями к лучшему вашего питомца!
-        </li>
-      </ul>
+    <section class="advantages">
+      <div class="container">
+        <h2 class="advantages__title">
+          Как это работает
+        </h2>
+        <ul class="advantages__list advantages__list--view">
+          <li class="advantages__item advantages__item--healthy-food">
+            Функциональное питание
+            содержит только полезные
+            питательные вещества.
+          </li>
+          <li class="advantages__item advantages__item--powder-form">
+            Выпускается в виде порошка,
+            который нужно лишь залить
+            кипятком и готово.
+          </li>
+          <li class="advantages__item advantages__item--power-replacement">
+            Замените один-два приема
+            обычной еды на наше
+            функциональное питание.
+          </li>
+          <li class="advantages__item advantages__item--result">
+            Уже через месяц наслаждайтесь
+            изменениями к лучшему вашего питомца!
+          </li>
+        </ul>
+      </div>
     </section>
     <section class="example">
-      <h2 class="example__title">
-        Живой пример
-      </h2>
-      <p class="example__description">
-        Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без
-        изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.
-      </p>
-      <dl class="example__results">
-        <div class="example__result">
-          <dt class="example__result-term">
-            5 КГ
-          </dt>
-          <dd class="example__result-description">
-            снижение веса
-          </dd>
-        </div>
-        <div class="example__result">
-          <dt class="example__result-term">
-            60 ДНЕЙ
-          </dt>
-          <dd class="example__result-description">
-            затрачено времени
-          </dd>
-        </div>
-      </dl>
-      <p class="example__expenses">
-        Затраты на питание: 15 000 РУБ.
-      </p>
-      <div class="example__slider slider">
-        <div class="slider__slides">
-          <img class="example__image" src="img" width="280" height="277" alt="Фото кота.">
-        </div>
-        <div class="slider__controls">
-          <button class="slider__btn" type="button">
-            было
-          </button>
-          <label>
-            <span class="visually-hidden">пример</span>
-            <input type="range" name="example" min="0" max="100">
-          </label>
-          <button class="slider__btn" type="button">
-            стало
-          </button>
+      <div class="container">
+        <h2 class="example__title">
+          Живой пример
+        </h2>
+        <p class="example__description">
+          Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без
+          изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.
+        </p>
+        <dl class="example__results">
+          <div class="example__result">
+            <dt class="example__result-term">
+              5 КГ
+            </dt>
+            <dd class="example__result-description">
+              снижение веса
+            </dd>
+          </div>
+          <div class="example__result">
+            <dt class="example__result-term">
+              60 ДНЕЙ
+            </dt>
+            <dd class="example__result-description">
+              затрачено времени
+            </dd>
+          </div>
+        </dl>
+        <p class="example__expenses">
+          Затраты на питание: 15 000 РУБ.
+        </p>
+        <div class="example__slider slider">
+          <div class="slider__slides">
+            <img class="example__image" src="img/mobile/cat-fat.png" width="280" height="277" alt="Фото кота.">
+          </div>
+          <div class="slider__controls">
+            <button class="slider__btn" type="button">
+              было
+            </button>
+            <label>
+              <span class="visually-hidden">пример</span>
+              <input type="range" name="example" min="0" max="100">
+            </label>
+            <button class="slider__btn" type="button">
+              стало
+            </button>
+          </div>
         </div>
       </div>
     </section>
