@@ -1,6 +1,6 @@
 .show-more {
   padding: 75px 0 25px;
-  background-color: $color-default-white;
+  background-color: $color-white;
 }
 
 .show-more__title {
@@ -9,7 +9,7 @@
   font-size: 16px;
   line-height: 20px;
 
-  color: $color-contacts;
+  color: $color-less-black;
   margin: 0;
   margin-bottom: 8px;
 
@@ -24,7 +24,7 @@
   font-size: 12px;
   line-height: 16px;
 
-  color: $special_dark-grey;
+  color: $color-nero;
   margin: 0;
   margin-bottom: 21px;
 
@@ -41,8 +41,8 @@
   justify-content: center;
   padding: 10px 80px;
 
-  color: $special_dark-grey;
-  background-color: $bg-program;
+  color: $color-nero;
+  background-color: $color-white-smoke;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;

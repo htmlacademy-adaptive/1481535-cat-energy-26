@@ -1,5 +1,5 @@
 .program {
-  background-color: $bg-program;
+  background-color: $color-white-smoke;
   padding: 30px 33px 18px 20px;
 }
 
@@ -27,9 +27,9 @@
   margin-bottom: 15px;
   padding-bottom: 23px;
 
-  color: $special_dark-grey;
+  color: $color-nero;
 
-  border-bottom: 1px solid #D9D9D9;
+  border-bottom: 1px solid $color-gainsboro;
 }
 
 .program__link {
@@ -37,8 +37,8 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
-  color: $color-default-black;
-  background-color: transparent;
+  color: $color-black;
+  background-color: $color-transparent;
 
   text-align: center;
   text-transform: uppercase;

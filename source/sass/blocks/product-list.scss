@@ -6,7 +6,7 @@
 }
 
 .product-list__item {
-  border-bottom: 1px solid #CDCDCD;
+  border-bottom: 1px solid $color-very-light-grey;
   padding-bottom: 19px;
 }
 
@@ -16,7 +16,7 @@
   font-size: 16px;
   line-height: 16px;
 
-  color: $special_dark-grey-card;
+  color: $color-nero;
 
   margin: 0;
   margin-top: 13px;
@@ -36,7 +36,7 @@
   font-size: 14px;
   line-height: 14px;
 
-  color: $special_dark-grey;
+  color: $color-nero;
 }
 
 .product-list__description {
@@ -46,7 +46,7 @@
   font-size: 14px;
   line-height: 14px;
 
-  color: $special_dark-grey;
+  color: $color-nero;
 }
 
 

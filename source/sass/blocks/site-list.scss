@@ -5,7 +5,7 @@
 }
 
 .site-list:last-child {
-  border-bottom: 1px solid #E6E6E6;
+  border-bottom: 1px solid $color-whisper-new;
 }
 .site-list__link {
   display: block;
@@ -22,5 +22,5 @@
   text-transform: uppercase;
   text-align: center;
   text-decoration: none;
-  border-top: 1px solid #E6E6E6;
+  border-top: 1px solid $color-whisper-new;
 }

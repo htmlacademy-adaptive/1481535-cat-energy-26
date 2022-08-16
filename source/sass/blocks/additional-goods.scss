@@ -1,7 +1,7 @@
 .additional-goods {
   padding-top: 25px;
   padding-bottom: 19px;
-  background-color: $bg-color-default;
+  background-color: $color-white;
 }
 
 .additional-goods__title {
@@ -12,6 +12,6 @@
   margin: 0;
   padding-bottom: 36px;
 
-  color: $color-default-black;
-  border-bottom: 1px solid #CDCDCD;
+  color: $color-black;
+  border-bottom: 1px solid $color-very-light-grey;
 }

@@ -24,7 +24,7 @@
   line-height: 36px;
   font-style: normal;
 
-  color:$color-default-white;
+  color: $color-white;
 
   text-align: center;
   margin: 0;
@@ -38,7 +38,7 @@
   line-height: 14px;
   font-style: normal;
 
-  color:$color-default-white;
+  color: $color-white;
 
   text-transform: uppercase;
   text-align: center;
@@ -48,7 +48,7 @@
 
 .intro__image {
   display:block;
-  margin:auto
+  margin:auto;
 }
 
 .intro__button {

@@ -1,9 +1,9 @@
 .contacts {
-  background-color: $bg-color-default;
+  background-color: $color-white;
 }
 
 .contacts--bg {
-  background-color: $bg-program;
+  background-color: $color-white-smoke;
 }
 
 .contacts__address {
@@ -18,7 +18,7 @@
   font-size: 16px;
   line-height: 20px;
 
-  color: $color-contacts;
+  color: $color-less-black;
 
   text-transform: uppercase;
 
@@ -32,7 +32,7 @@
   font-size: 14px;
   line-height: 20px;
 
-  color: $special_dark-grey;
+  color: $color-nero;
 
   margin: 0;
 }
