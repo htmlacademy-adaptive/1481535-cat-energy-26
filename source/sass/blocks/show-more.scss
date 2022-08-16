@@ -1,0 +1,52 @@
+.show-more {
+  padding: 75px 0 25px;
+  background-color: $color-default-white;
+}
+
+.show-more__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: $color-contacts;
+  margin: 0;
+  margin-bottom: 8px;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.show-more__description {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: $special_dark-grey;
+  margin: 0;
+  margin-bottom: 21px;
+
+  text-align: center;
+}
+
+.show-more__link {
+  font: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  display: flex;
+  justify-content: center;
+  padding: 10px 80px;
+
+  color: $special_dark-grey;
+  background-color: $bg-program;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+

@@ -1,10 +1,22 @@
 .header {
+  padding-top:10px;
   background-color: $bg-color-default;
 
 }
-.header__logo-image {
-  margin-right: 56px;
+
+
+.header__logo {
+  display: flex;
+  flex-direction: column;
+
 }
+
+.header__logo-image {
+
+}
+
 .header__logo-text {
-  margin-right: 65px;
+  align-self: center;
+  margin-top: -26px;
+
 }

@@ -2,6 +2,10 @@
   background-color: $bg-color-default;
 }
 
+.contacts--bg {
+  background-color: $bg-program;
+}
+
 .contacts__address {
   display: flex;
   justify-content: space-between;
