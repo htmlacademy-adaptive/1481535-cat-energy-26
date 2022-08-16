@@ -1,32 +1,31 @@
 .example {
-  background-color: $color-white-smoke;
   padding-top: 25px;
   padding-bottom: 40px;
+
+  background-color: $color-white-smoke;
 }
 
 .example__title {
+  margin: 0;
+  margin-bottom: 40px;
+
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
   line-height: 40px;
-
   color: $color-black;
-
-  margin: 0;
-  margin-bottom: 40px;
 }
 
 .example__description {
-  font-family: 'Arial';
+  margin: 0;
+  margin-bottom: 20px;
+
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-
+  font-family: "Arial";
   color: $color-nero;
-
-  margin: 0;
-  margin-bottom: 20px;
 }
 
 .example__results {
@@ -37,70 +36,45 @@
 }
 
 .example__result-term {
+  margin-bottom: 8px;
+
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;
-
-  color: $color-black;
-
   text-align: center;
-  margin-bottom: 8px;
+  color: $color-black;
 }
 
 .example__result-description {
-  font-family: 'Arial';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 12px;
-  margin: 0;
-
+  font-family: "Arial";
   color: $color-nero;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .example__expenses {
+  margin: 0;
+  margin-bottom: 40px;
 
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-
-  color: $color-black;
-
   text-align: center;
+  color: $color-black;
   text-transform: uppercase;
-
-  margin: 0;
-  margin-bottom: 40px;
 }
 
 .example__image {
   display: block;
   margin: auto;
-}
-
-.slider__controls {
-  text-align: center;
-}
-
-.slider__btn {
-  font: inherit;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-
-  color: $color-black;
-  background-color: $color-transparent;
-
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-  border: none;
-  cursor: pointer;
 }
 

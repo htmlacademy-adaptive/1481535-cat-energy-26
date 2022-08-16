@@ -1,32 +1,33 @@
 .program {
-  background-color: $color-white-smoke;
   padding: 30px 33px 18px 20px;
+
+  background-color: $color-white-smoke;
 }
 
 .program--loss {
   margin-bottom: 20px;
 }
 .program__title {
+  margin: 0;
+  margin-bottom: 29px;
+
   font-weight: 400;
   font-size: 24px;
   line-height: 37px;
-  text-transform: uppercase;
   text-align: center;
-
-  margin: 0;
-  margin-bottom: 29px;
+  text-transform: uppercase;
 }
 
 .program__description {
-  font-family: 'Arial';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
   margin: 0;
   margin-bottom: 15px;
   padding-bottom: 23px;
 
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: $ff-arial;
   color: $color-nero;
 
   border-bottom: 1px solid $color-gainsboro;
@@ -37,12 +38,12 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
-  color: $color-black;
-  background-color: $color-transparent;
-
   text-align: center;
+  color: $color-black;
   text-transform: uppercase;
   text-decoration: none;
+
+  background-color: $color-transparent;
   border: none;
   cursor: pointer;
 }

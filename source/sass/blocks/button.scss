@@ -3,13 +3,12 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-
-  color: $color-white;
-  background-color: $color-apple;
-
   text-align: center;
+  color: $color-white;
   text-transform: uppercase;
   text-decoration: none;
+
+  background-color: $color-apple;
   border: none;
   cursor: pointer;
 }

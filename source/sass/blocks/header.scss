@@ -1,22 +1,18 @@
 .header {
-  padding-top:10px;
-  background-color: $color-white;
+  padding-top: 10px;
 
+  background-color: $color-white;
 }
 
 
 .header__logo {
   display: flex;
   flex-direction: column;
-
 }
 
-.header__logo-image {
 
-}
 
 .header__logo-text {
   align-self: center;
   margin-top: -26px;
-
 }
