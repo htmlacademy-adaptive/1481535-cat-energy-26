@@ -1,0 +1,28 @@
+.selection-form {
+  padding-top: 27px;
+  padding-bottom: 32px;
+  background-color: $bg-color-default;
+}
+
+.selection-form__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+
+  margin: 0;
+  margin-bottom: 37px;
+}
+
+.selection-form__description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: $color-default-black;
+
+  margin: 0;
+  margin-bottom: 39px;
+  text-transform: uppercase;
+}

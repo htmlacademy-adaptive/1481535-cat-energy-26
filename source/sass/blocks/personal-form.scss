@@ -1,0 +1,61 @@
+.personal-form__text-label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+
+  color: $special_dark-grey;
+
+  text-transform: uppercase;
+}
+
+.personal-form__radio-label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+
+  color: $special_dark-grey-card;
+
+  text-transform: uppercase;
+}
+
+.personal-form__legend {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+
+  color: $color-default-black;
+}
+
+.personal-form__checkbox-label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+
+  color: $color-default-black;
+
+  text-transform: uppercase;
+}
+
+.selection-form__button {
+  display: flex;
+  justify-content: center;
+  padding: 7px 44px;
+}
+
+.selection-form__fieldset__required {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: $color-default-black;
+
+
+  // Почему не работает выравнивание?
+  text-align: center;
+}
+
