@@ -33,19 +33,24 @@
   text-transform: uppercase;
 }
 
-.selection-form__button {
+.personal-form__button {
   display: flex;
   justify-content: center;
+  width: 100%;
   padding: 7px 44px;
 }
 
-.selection-form__fieldset__required {
+.personal-form__fieldset-required {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
   font-family: $ff-arial;
-  // Почему не работает выравнивание?
-  text-align: center;
   color: $color-black;
+}
+
+.personal-form__submit-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

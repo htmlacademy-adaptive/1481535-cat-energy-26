@@ -1,7 +1,13 @@
+.map {
+  max-height: 362px;
+  overflow: hidden;
+}
+
+
 .map__image {
   width: 100%;
+  height: auto;
 
-  vertical-align: middle;
-
-  background-size: contain;
+  object-fit: contain;
+  object-position: center;
 }
