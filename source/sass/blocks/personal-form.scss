@@ -8,8 +8,6 @@
   align-self: center;
   margin-right: 13px;
 
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 18px;
   vertical-align: middle;
@@ -28,10 +26,8 @@
 
 .personal-form__text-input {
   flex-grow: 1;
-  margin: 0;
   padding: 13px 15px;
 
-  font-weight: 400;
   font-size: 16px;
   line-height: 18px;
   font-family: inherit;
@@ -41,8 +37,6 @@
 }
 
 .personal-form__radio-label {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 18px;
   color: $color-nero;
@@ -50,8 +44,6 @@
 }
 
 .personal-form__legend {
-  font-style: normal;
-  font-weight: 400;
   font-size: 24px;
   line-height: 26px;
   color: $color-black;
@@ -66,8 +58,6 @@
 }
 
 .personal-form__checkbox-label {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 18px;
   color: $color-black;
@@ -83,8 +73,6 @@
 }
 
 .personal-form__fieldset-required {
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 16px;
   font-family: $ff-arial;
