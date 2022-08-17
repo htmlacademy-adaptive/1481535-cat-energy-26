@@ -1,0 +1,13 @@
+.map {
+  max-height: 362px;
+  overflow: hidden;
+}
+
+
+.map__image {
+  width: 100%;
+  height: auto;
+
+  object-fit: contain;
+  object-position: center;
+}

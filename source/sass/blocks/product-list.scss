@@ -1,0 +1,56 @@
+.product-list {
+  margin: 0;
+  margin-bottom: 19px;
+  padding: 0;
+
+  list-style: none;
+}
+
+.product-list__item {
+  padding-bottom: 19px;
+
+  border-bottom: 1px solid $color-very-light-grey;
+}
+
+.product-list__title {
+  margin: 0;
+  margin-top: 13px;
+  margin-bottom: 13px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: $color-nero;
+  text-transform: uppercase;
+}
+
+.product-list__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-list__term {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  font-family: "Arial";
+  color: $color-nero;
+}
+
+.product-list__description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  font-family: $ff-arial;
+  color: $color-nero;
+}
+
+
+.product-list__link {
+  display: flex;
+  justify-content: center;
+  padding: 10px 80px;
+}

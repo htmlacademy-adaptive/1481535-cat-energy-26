@@ -1,0 +1,56 @@
+.personal-form__text-label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: $color-nero;
+  text-transform: uppercase;
+}
+
+.personal-form__radio-label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: $color-nero;
+  text-transform: uppercase;
+}
+
+.personal-form__legend {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  color: $color-black;
+}
+
+.personal-form__checkbox-label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: $color-black;
+  text-transform: uppercase;
+}
+
+.personal-form__button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 7px 44px;
+}
+
+.personal-form__fieldset-required {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: $ff-arial;
+  color: $color-black;
+}
+
+.personal-form__submit-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

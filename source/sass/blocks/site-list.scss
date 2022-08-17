@@ -1,0 +1,27 @@
+.site-list {
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.site-list:last-child {
+  border-bottom: 1px solid $color-whisper-new;
+}
+.site-list__link {
+  display: block;
+  padding: 22px 70px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: $ff-oswald;
+  text-align: center;
+  color: inherit;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  background-color: $color-white;
+  border-top: 1px solid $color-whisper-new;
+}

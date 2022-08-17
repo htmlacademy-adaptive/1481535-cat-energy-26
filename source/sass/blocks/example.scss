@@ -1,0 +1,79 @@
+.example {
+  padding-top: 25px;
+  padding-bottom: 40px;
+
+  background-color: $color-white-smoke;
+}
+
+.example__title {
+  margin: 0;
+  margin-bottom: 40px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  color: $color-black;
+}
+
+.example__description {
+  margin: 0;
+  margin-bottom: 20px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "Arial";
+  color: $color-nero;
+}
+
+.example__results {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.example__result-term {
+  margin-bottom: 8px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: $color-black;
+}
+
+.example__result-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  font-family: "Arial";
+  color: $color-nero;
+}
+
+.example__expenses {
+  margin: 0;
+  margin-bottom: 40px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: $color-black;
+  text-transform: uppercase;
+}
+
+.example__image {
+  display: block;
+  margin: auto;
+}

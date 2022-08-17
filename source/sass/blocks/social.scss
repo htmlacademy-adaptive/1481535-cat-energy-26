@@ -1,0 +1,25 @@
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 132px;
+  margin: 0;
+  padding: 20px 0;
+
+  list-style: none;
+
+  border-bottom: 1px solid $color-gainsboro;
+}
+
+.social__item {
+  margin-right: 24px;
+}
+
+.social__item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.social__link {
+  width: 28px;
+  height: 22px;
+}
