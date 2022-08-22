@@ -3,4 +3,11 @@
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 20px;
+
+  @media (min-width: 768px) {
+    padding: 0 30px;
+  }
+  @media (min-width: 1220px)  {
+    padding: 0 40px;
+  }
 }

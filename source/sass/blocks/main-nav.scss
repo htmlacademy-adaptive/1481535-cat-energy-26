@@ -6,4 +6,8 @@
   display: block;
   margin-left: auto;
   padding-bottom: 18px;
+
+  @media (min-width: $vp-768) {
+    display: none;
+   }
 }

@@ -2,6 +2,24 @@
   padding-top: 10px;
 
   background-color: $color-white;
+
+  @media (min-width: $vp-768) {
+    max-width: 100%;
+    padding-top: 24px;
+    margin-bottom: 62px;
+  }
+
+  @media (min-width: $vp-1300) {
+    padding-top: 53px;
+    margin-bottom: 32px;
+  }
+}
+
+.tablet-wrapper {
+  @media (min-width: $vp-768) {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 
