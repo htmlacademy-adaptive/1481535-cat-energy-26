@@ -3,6 +3,16 @@
   padding-bottom: 40px;
 
   background-color: $color-white-smoke;
+
+  @media (min-width: $vp-768) {
+    padding-top: 43px;
+    padding-bottom: 56px;
+  }
+
+  @media (min-width: $vp-1300) {
+    padding-top: 41px;
+    padding-bottom: 65px;
+  }
 }
 
 .example__title {
@@ -14,6 +24,19 @@
   font-size: 36px;
   line-height: 40px;
   color: $color-black;
+
+  @media (min-width: $vp-768) {
+    margin-bottom: 63px;
+
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  @media (min-width: $vp-1300) {
+    padding-bottom: 76px;
+
+    background-color: $color-white;
+  }
 }
 
 .example__description {
@@ -24,6 +47,28 @@
   line-height: 18px;
   font-family: $ff-arial;
   color: $color-nero;
+
+  @media (min-width: $vp-768) {
+    margin-bottom: 54px;
+
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  @media (min-width: $vp-1300) {
+    margin-bottom: 69px;
+
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.example__wrapper {
+  display: flex;
+
+  @media (min-width: $vp-1300) {
+    flex-direction: column;
+  }
 }
 
 .example__results {
@@ -31,8 +76,21 @@
   justify-content: space-between;
   margin: 0;
   margin-bottom: 20px;
+
+  @media (min-width: $vp-768) {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 80px;
+  }
+
+  @media (min-width: $vp-768) {
+    margin-bottom: 55px;
+  }
 }
 
+.example__result {
+  margin-right: 42px;
+}
 
 .example__result-term {
   margin-bottom: 8px;
@@ -41,6 +99,17 @@
   line-height: 24px;
   text-align: center;
   color: $color-black;
+
+  @media (min-width: $vp-768) {
+    margin-bottom: 11px;
+
+    font-size: 30px;
+    line-height: 37px;
+  }
+
+  @media (min-width: $vp-1300) {
+    margin-bottom: 55px;
+  }
 }
 
 .example__result-description {
@@ -53,6 +122,11 @@
   line-height: 12px;
   font-family: $ff-arial;
   color: $color-nero;
+
+  @media (min-width: $vp-768) {
+    font-size: 14px;
+    line-height: 14px;
+  }
 }
 
 .example__expenses {
@@ -61,9 +135,22 @@
 
   font-size: 14px;
   line-height: 20px;
-  text-align: center;
+  text-align: right;
   color: $color-black;
   text-transform: uppercase;
+
+  @media (min-width: $vp-768) {
+    margin-left: auto;
+
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  @media (min-width: $vp-1300) {
+    margin-left: 0;
+
+    text-align: left;
+  }
 }
 
 .example__image {
