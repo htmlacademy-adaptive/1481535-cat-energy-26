@@ -9,7 +9,13 @@
   list-style: none;
 
   border-bottom: 1px solid $color-gainsboro;
+
+  @media (min-width: $vp-768) {
+  border-bottom: none;
 }
+
+}
+
 
 .social__item {
   margin-right: 24px;
