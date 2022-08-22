@@ -1,15 +1,16 @@
 .programs {
-  padding-top: 20px;
   margin-bottom: 20px;
+  padding-top: 20px;
   @media (min-width: $vp-768) {
     padding-bottom: 45px;
   }
 
   @media (min-width: $vp-1300) {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 80px;
     margin-bottom: 71px;
+    padding-bottom: 0;
+
+    gap: 80px;
+    grid-template-columns: 1fr 1fr;
   }
 }
-
