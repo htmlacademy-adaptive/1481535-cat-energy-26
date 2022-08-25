@@ -7,7 +7,7 @@
     padding: 77px 316px 53px 52px;
   }
 
-  @media (min-width: $vp-1300) {
+  @media (min-width: $vp-1024) {
     padding: 41px 51px 55px 52px;
   }
 }
@@ -19,7 +19,7 @@
     margin-bottom: 30px;
   }
 
-  @media (min-width: $vp-1300) {
+  @media (min-width: $vp-1024) {
     margin-bottom: 0;
   }
 }
@@ -41,7 +41,7 @@
     text-align: left;
   }
 
-  @media (min-width: $vp-1300) {
+  @media (min-width: $vp-1024) {
     margin-bottom: 73px;
 
     text-align: center;
@@ -70,7 +70,7 @@
     border-bottom: none;
   }
 
-  @media (min-width: $vp-1300) {
+  @media (min-width: $vp-1024) {
     margin-bottom: 23px;
 
     text-align: center;

@@ -11,7 +11,7 @@
     justify-content: space-between;
     width: 440px;
   }
-  @media (min-width: $vp-1300) {
+  @media (min-width: $vp-1024) {
     width: 478px;
   }
 }
@@ -50,7 +50,7 @@
     border-top: none;
   }
 
-  @media (min-width: $vp-1300) {
+  @media (min-width: $vp-1024) {
     font-size: 20px;
     line-height: 30px;
     color: $color-white;

@@ -5,6 +5,18 @@
   border: none;
 }
 
+.personal-form__fieldset--personal-date {
+  margin-bottom: 50px;
+
+  @media (min-width: $vp-768) {
+    margin-bottom: 72px;
+  }
+
+  @media (min-width: $vp-1024) {
+    margin-bottom: 69px;
+  }
+}
+
 .personal-form__text-label {
   align-self: center;
   margin-right: 13px;
@@ -14,11 +26,20 @@
   vertical-align: middle;
   color: $color-nero;
   text-transform: uppercase;
+
+  @media (min-width: $vp-768) {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
 .personal-form__text-label-wrapper {
   display: flex;
   margin-bottom: 14px;
+
+  @media (min-width: $vp-768) {
+    margin-bottom: 20px;
+  }
 }
 
 .personal-form__text-label-wrapper:last-child {
@@ -35,6 +56,46 @@
 
   background-color: $color-white;
   border: 1px solid $color-border-whisper;
+
+  @media (min-width: $vp-768) {
+    padding: 11px 18px;
+
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  @media (min-width: $vp-1024) {
+    padding: 11px 20px;
+  }
+}
+
+
+.personal-form__fieldset--program-selection {
+  margin-bottom: 45px;
+  @media (min-width: $vp-768) {
+    margin-bottom: 71px;
+    padding: 25px 27px;
+
+    border: 1px solid $color-border-whisper;
+  }
+
+  @media (min-width: $vp-1024) {
+    margin-bottom: 65px; //временно
+  }
+}
+
+.personal-form__fieldset--program-selection::before {
+  content: "";
+  position: absolute;
+
+  width: 100%;
+  height: 1px;
+
+  background-color: $color-border-whisper;
+
+  @media (min-width: $vp-768) {
+    display: none;
+  }
 }
 
 .personal-form__radio-label {
@@ -42,6 +103,11 @@
   line-height: 18px;
   color: $color-nero;
   text-transform: uppercase;
+
+  @media (min-width: $vp-768) {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
 .personal-form__legend {
@@ -90,6 +156,10 @@
 .personal-form__radio-label-wrapper {
   display: block;
   margin-bottom: 13px;
+
+  @media (min-width: $vp-768) {
+    margin-bottom: 18px;
+  }
 }
 
 .personal-form__radio-label-wrapper:last-child {
@@ -98,6 +168,10 @@
 
 .personal-form__radio-label {
   margin-left: 15px;
+
+  @media (min-width: $vp-768) {
+    margin-left: 20px;
+  }
 }
 
 

@@ -9,7 +9,7 @@
 }
 
 
-  @media (min-width: $vp-1300) {
+  @media (min-width: $vp-1024) {
     padding-right: 0;
     padding-bottom: 26px;
   }
@@ -45,7 +45,7 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  @media (min-width: $vp-1300) {
+  @media (min-width: $vp-1024) {
     display: flex;
     justify-content: space-between;
   }

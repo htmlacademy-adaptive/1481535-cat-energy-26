@@ -14,6 +14,16 @@
   font-weight: 400;
   font-size: 36px;
   line-height: 36px;
+
+  @media (min-width: $vp-768) {
+    margin-bottom: 54px;
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  @media (min-width: $vp-1024) {
+    margin-bottom: 56px;
+  }
 }
 
 .selection-form__description {
@@ -24,4 +34,11 @@
   line-height: 18px;
   color: $color-black;
   text-transform: uppercase;
+
+  @media (min-width: $vp-768) {
+    margin-bottom: 66px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
 }
