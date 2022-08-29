@@ -24,17 +24,17 @@
   }
 
   @media (min-width: $vp-1024) {
+    top: -200px;
+    left: 50vw;
+
     display: block;
     width: 50vw;
     height: 694px;
-    top: -200px;
-    left: 50vw;
 
     background-image: linear-gradient(rgba($color-apple, 0.85),
     rgba($color-apple, 0.85)),
     url("../img/desktop/index-background-desktop.jpg");
-
-}
+  }
 }
 
 .intro__title {

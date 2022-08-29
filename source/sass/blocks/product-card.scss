@@ -6,8 +6,9 @@
   border-bottom: 1px solid $color-whisper;
 
   @media (min-width: $vp-768) {
-    background-color: $color-white-smoke;
     padding: 0 36px 39px 36px;
+
+    background-color: $color-white-smoke;
   }
 
   @media (min-width: $vp-768) {
@@ -57,6 +58,7 @@
   @media (min-width: $vp-768) {
     margin-bottom: 21px;
     margin-left: 0;
+
     font-size: 20px;
     line-height: 24px;
     text-align: center;
@@ -64,7 +66,6 @@
 
   @media (min-width: $vp-1024) {
     margin-bottom: 22px;
-
   }
 }
 
@@ -79,23 +80,23 @@
   margin-bottom: 6px;
 
   @media (min-width: $vp-768) {
-    padding-bottom: 9px;
     margin-bottom: 5px;
+    padding-bottom: 9px;
+
     border-bottom: 1px solid $color-very-light-grey;
   }
 
   @media (min-width: $vp-768) {
-    padding-bottom: 10px;
     margin-bottom: 5px;
+    padding-bottom: 10px;
   }
 }
 
 .product-card__item:last-child {
   @media (min-width: $vp-768) {
-    padding-bottom: 10;
     margin-bottom: 0;
+    padding-bottom: 10;
   }
-
 }
 
 .product-card__description {

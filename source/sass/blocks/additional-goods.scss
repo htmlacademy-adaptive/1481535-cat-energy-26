@@ -45,7 +45,6 @@
   @media (min-width: $vp-1024) {
     display: flex;
   }
-
 }
 
 .additional-goods__gift {
@@ -57,9 +56,8 @@
   padding: 186px 60px 43px 60px;
 
   @media (min-width: $vp-1024) {
-    padding: 184px 43px 42px 40px;
-    // width: 245px;
     margin-left: auto;
+    padding: 184px 43px 42px 40px;
   }
 }
 
@@ -78,7 +76,6 @@
   rgba($color-apple, 0.85)), url("../img/mobile/bg-gifts.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .additional-goods__gift-description {

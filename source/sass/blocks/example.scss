@@ -140,11 +140,11 @@
   text-transform: uppercase;
 
   @media (min-width: $vp-768) {
-  margin-left: auto;
+    margin-left: auto;
 
-  font-size: 20px;
-  line-height: 20px;
-}
+    font-size: 20px;
+    line-height: 20px;
+  }
 
 
   @media (min-width: $vp-1024) {
