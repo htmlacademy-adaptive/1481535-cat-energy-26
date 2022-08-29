@@ -15,6 +15,13 @@
   }
 }
 
+.header__wrapper {
+  @media (min-width: $vp-768) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 .tablet-wrapper {
   @media (min-width: $vp-768) {
     display: flex;

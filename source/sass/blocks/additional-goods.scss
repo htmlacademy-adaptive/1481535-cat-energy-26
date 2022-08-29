@@ -3,6 +3,16 @@
   padding-bottom: 19px;
 
   background-color: $color-white;
+
+  @media (min-width: $vp-768) {
+    padding-top: 79px;
+    padding-bottom: 28px;
+  }
+
+  @media (min-width: $vp-1024) {
+    padding-top: 76px;
+    padding-bottom: 86px;
+  }
 }
 
 .additional-goods__title {
@@ -16,6 +26,26 @@
   color: $color-black;
 
   border-bottom: 1px solid $color-very-light-grey;
+
+  @media (min-width: $vp-768) {
+    margin-bottom: 70px;
+
+    font-size: 36px;
+    line-height: 36px;
+
+    border-bottom: none;
+  }
+
+  @media (min-width: $vp-1024) {
+    margin-bottom: 81px;
+  }
+}
+
+.additional-goods--wrapper {
+  @media (min-width: $vp-1024) {
+    display: flex;
+  }
+
 }
 
 .additional-goods__gift {
@@ -25,6 +55,12 @@
   display: flex;
   justify-content: center;
   padding: 186px 60px 43px 60px;
+
+  @media (min-width: $vp-1024) {
+    padding: 184px 43px 42px 40px;
+    // width: 245px;
+    margin-left: auto;
+  }
 }
 
 
@@ -42,6 +78,7 @@
   rgba($color-apple, 0.85)), url("../img/mobile/bg-gifts.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 .additional-goods__gift-description {
