@@ -71,8 +71,8 @@
 
   @media (min-width: $vp-1024) {
     margin-bottom: 40px;
-    padding-left: 80px;
     padding-right: 564px;
+    padding-left: 80px;
   }
 }
 
@@ -88,7 +88,7 @@
   text-transform: uppercase;
 
   @media (min-width: $vp-768) {
-    margin-bottom: 20px;
+    margin-bottom: 49px;
     padding-left: 87px;
 
     font-size: 20px;
@@ -114,7 +114,11 @@
   padding: 12px 74px;
 
   @media (min-width: $vp-768) {
+    position: relative;
+    top: -270px;
+
     display: inline-block;
+    margin-left: 82px;
     padding: 14px 26px;
 
     font-size: 20px;
@@ -122,8 +126,9 @@
   }
 
   @media (min-width: $vp-1024) {
-    margin-left: 82px;
     position: relative;
     top: -270px;
+
+    margin-left: 82px;
   }
 }
