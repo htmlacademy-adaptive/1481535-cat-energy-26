@@ -108,9 +108,9 @@
   }
 }
 
-
 .personal-form__fieldset--program-selection {
   margin-bottom: 45px;
+
   @media (min-width: $vp-768) {
     margin-bottom: 71px;
     padding: 25px 27px;
@@ -138,12 +138,14 @@
 }
 
 .personal-form__radio-label {
+  margin-left: 15px;
   font-size: 16px;
   line-height: 18px;
   color: $color-nero;
   text-transform: uppercase;
 
   @media (min-width: $vp-768) {
+    margin-left: 20px;
     font-size: 20px;
     line-height: 30px;
   }
@@ -228,8 +230,6 @@
   }
 }
 
-
-
 .personal-form__button {
   display: flex;
   justify-content: center;
@@ -283,15 +283,6 @@
   margin-bottom: 0;
 }
 
-.personal-form__radio-label {
-  margin-left: 15px;
-
-  @media (min-width: $vp-768) {
-    margin-left: 20px;
-  }
-}
-
-
 //checkbox
 .personal-form__checkbox-label-wrapper {
   display: block;
@@ -313,8 +304,4 @@
   @media (min-width: $vp-1024) {
     margin-right: 0;
   }
-}
-
-.personal-form__legend--checkbox {
-  margin-bottom: 34px;
 }

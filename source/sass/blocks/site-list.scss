@@ -4,13 +4,13 @@
 
   list-style-type: none;
 
-
   @media (min-width: $vp-768) {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 440px;
   }
+
   @media (min-width: $vp-1024) {
     width: 478px;
   }
@@ -23,6 +23,7 @@
     border-bottom: none;
   }
 }
+
 .site-list__link {
   display: block;
   padding: 22px 70px;

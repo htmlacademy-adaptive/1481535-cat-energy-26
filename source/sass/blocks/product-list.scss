@@ -108,9 +108,6 @@
     font-size: 16px;
     line-height: 20px;
   }
-
-  @media (min-width: $vp-1024) {
-  }
 }
 
 .product-list__description {
@@ -148,7 +145,6 @@
     margin-left: 120px;
   }
 }
-
 
 .product-list__link {
   display: flex;
