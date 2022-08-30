@@ -20,16 +20,29 @@
   @media (min-width: $vp-768) {
     display: none;
   }
+}
 
+.page-intro::before {
   @media (min-width: $vp-1024) {
-    top: -200px;
-    left: 50vw;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
 
-    display: block;
-    width: 50vw;
-    height: 694px;
+    width: 50%;
+    height: 100%;
 
     background-image: linear-gradient(rgba($color-apple, 0.85), rgba($color-apple, 0.85)), url("../img/desktop/index-background-desktop.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+.page-intro {
+  @media (min-width: $vp-1024) {
+    margin-bottom: 95px;
   }
 }
 
@@ -59,6 +72,7 @@
   @media (min-width: $vp-1024) {
     margin-bottom: 40px;
     padding-left: 80px;
+    padding-right: 564px;
   }
 }
 
@@ -105,5 +119,11 @@
 
     font-size: 20px;
     line-height: 20px;
+  }
+
+  @media (min-width: $vp-1024) {
+    margin-left: 82px;
+    position: relative;
+    top: -270px;
   }
 }

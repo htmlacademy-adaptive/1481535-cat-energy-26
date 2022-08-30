@@ -1,5 +1,9 @@
 .main-nav {
   background-color: $color-white;
+
+  @media (min-width: $vp-1024) {
+    background-color: $color-transparent;
+  }
 }
 
 .main-nav__toggle {
