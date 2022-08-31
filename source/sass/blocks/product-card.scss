@@ -11,8 +11,9 @@
     background-color: $color-white-smoke;
   }
 
-  @media (min-width: $vp-768) {
+  @media (min-width: $vp-1024) {
     padding: 0 30px 40px 35px;
+    max-width: 246px;
   }
 }
 

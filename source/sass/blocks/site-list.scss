@@ -58,3 +58,9 @@
     background-color: $color-transparent;
   }
 }
+
+.site-list__link--color {
+  @media (min-width: $vp-1024) {
+    color: $color-black;
+  }
+}

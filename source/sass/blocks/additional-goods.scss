@@ -28,7 +28,8 @@
   border-bottom: 1px solid $color-very-light-grey;
 
   @media (min-width: $vp-768) {
-    margin-bottom: 70px;
+    margin-bottom: 80px;
+    padding-bottom: 0;
 
     font-size: 36px;
     line-height: 36px;
@@ -56,8 +57,8 @@
   padding: 186px 60px 43px 60px;
 
   @media (min-width: $vp-1024) {
-    margin-left: auto;
     padding: 184px 43px 42px 40px;
+    justify-content: flex-end;
   }
 }
 
@@ -75,6 +76,11 @@
   background-image: linear-gradient(rgba($color-apple, 0.85), rgba($color-apple, 0.85)), url("../img/mobile/bg-gifts.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+
+  @media (min-width: $vp-1024) {
+    max-width: 245px;
+    margin-left: 80px;
+  }
 }
 
 .additional-goods__gift-description {

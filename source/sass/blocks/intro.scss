@@ -31,7 +31,8 @@
     z-index: -1;
 
     width: 50%;
-    height: 100%;
+    height: 694px;
+    overflow: hidden;
 
     background-image: linear-gradient(rgba($color-apple, 0.85), rgba($color-apple, 0.85)), url("../img/desktop/index-background-desktop.jpg");
     background-repeat: no-repeat;
@@ -42,7 +43,7 @@
 
 .page-intro {
   @media (min-width: $vp-1024) {
-    margin-bottom: 95px;
+    margin-bottom: 60px;
   }
 }
 

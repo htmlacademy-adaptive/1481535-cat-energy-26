@@ -44,8 +44,7 @@
 
   @media (min-width: $vp-1024) {
     display: grid;
-
-    gap: 63px 80px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;;
+    gap: 80px 60px;
   }
 }
