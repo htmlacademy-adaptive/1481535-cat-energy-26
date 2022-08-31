@@ -6,16 +6,16 @@
   list-style: none;
 
   @media (min-width: $vp-768) {
-    padding: 26px 38px 0;
     margin-bottom: 69px;
+    padding: 26px 38px 0;
 
     border: 1px solid $color-very-light-grey;
   }
 
   @media (min-width: $vp-1024) {
     width: 344%;
-    padding: 0;
     margin-bottom: 0;
+    padding: 0;
 
     border: none;
   }
@@ -42,8 +42,9 @@
   }
 
   @media (min-width: $vp-1024) {
-    flex-grow: 1;
     display: grid;
+    flex-grow: 1;
+
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -52,7 +53,6 @@
   @media (min-width: $vp-1024) {
     border-top: 1px solid $color-very-light-grey;
   }
-
 }
 
 .product-list__item:last-child {
@@ -92,8 +92,8 @@
   }
 
   @media (min-width: $vp-1024) {
-    margin-left: 0;
     max-width: 288px;
+    margin-left: 0;
   }
 }
 
