@@ -109,6 +109,8 @@
 }
 
 .personal-form__fieldset--program-selection {
+  position: relative;
+
   margin-bottom: 45px;
 
   @media (min-width: $vp-768) {
@@ -126,8 +128,10 @@
 .personal-form__fieldset--program-selection::before {
   content: "";
   position: absolute;
+  left: -20px;
+  top: 0;
 
-  width: 100%;
+  width: 100vh;
   height: 1px;
 
   background-color: $color-border-whisper;
