@@ -13,7 +13,6 @@
   }
 
   @media (min-width: $vp-1024) {
-    width: 344%;
     margin-bottom: 0;
     padding: 0;
 
@@ -36,7 +35,7 @@
   }
 }
 
-.product-list__item--wrapper {
+.product-list__item-wrapper {
   @media (min-width: $vp-768) {
     display: flex;
   }
@@ -118,6 +117,10 @@
   @media (min-width: $vp-768) {
     font-size: 16px;
     line-height: 20px;
+  }
+
+  @media (min-width: $vp-1024) {
+    margin-right: 47px;
   }
 }
 

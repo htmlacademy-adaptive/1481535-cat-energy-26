@@ -128,8 +128,8 @@
 .personal-form__fieldset--program-selection::before {
   content: "";
   position: absolute;
-  left: -20px;
   top: 0;
+  left: -20px;
 
   width: 100vh;
   height: 1px;
@@ -176,7 +176,7 @@
   }
 }
 
-.personal-form__fieldset--wrapper {
+.personal-form__fieldset-wrapper {
   @media (min-width: $vp-1024) {
     display: grid;
 

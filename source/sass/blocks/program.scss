@@ -91,4 +91,9 @@
 
   background-color: $color-transparent;
   cursor: pointer;
+
+  @media (min-width: $vp-768) {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }

@@ -42,9 +42,12 @@
   }
 }
 
-.additional-goods--wrapper {
+.additional-goods__wrapper {
   @media (min-width: $vp-1024) {
-    display: flex;
+    display: grid;
+
+    gap: 7%;
+    grid-template-columns: 70% 23%;
   }
 }
 
@@ -57,8 +60,7 @@
   padding: 186px 60px 43px 60px;
 
   @media (min-width: $vp-1024) {
-    justify-content: flex-end;
-    padding: 184px 43px 42px 40px;
+    padding: 186px 10px 43px 10px;
   }
 }
 
@@ -76,11 +78,6 @@
   background-image: linear-gradient(rgba($color-apple, 0.85), rgba($color-apple, 0.85)), url("../img/mobile/bg-gifts.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-
-  @media (min-width: $vp-1024) {
-    max-width: 245px;
-    margin-left: 80px;
-  }
 }
 
 .additional-goods__gift-description {
