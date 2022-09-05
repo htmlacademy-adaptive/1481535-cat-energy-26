@@ -21,8 +21,6 @@
   margin: 0;
   margin-bottom: 21px;
 
-  font-style: normal;
-  font-weight: 400;
   font-size: 12px;
   line-height: 16px;
   font-family: $ff-arial;
@@ -33,10 +31,8 @@
 .show-more__link {
   display: flex;
   justify-content: center;
-  padding: 10px 80px;
+  padding: 10px;
 
-  font: inherit;
-  font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
@@ -45,6 +41,5 @@
   text-decoration: none;
 
   background-color: $color-white-smoke;
-  border: none;
   cursor: pointer;
 }

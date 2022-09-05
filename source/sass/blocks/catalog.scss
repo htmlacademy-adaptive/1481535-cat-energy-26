@@ -17,4 +17,35 @@
   color: $color-black;
 
   border-bottom: 1px solid $color-whisper;
+
+  @media (min-width: $vp-768) {
+    margin-bottom: 82px;
+    padding-bottom: 0;
+
+    font-size: 60px;
+    line-height: 60px;
+    text-align: left;
+
+    border-bottom: none;
+  }
+
+  @media (min-width: $vp-1024) {
+    margin-bottom: 84px;
+  }
+}
+
+.catalog__cards {
+  @media (min-width: $vp-768) {
+    display: grid;
+
+    gap: 60px 60px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (min-width: $vp-1024) {
+    display: grid;
+
+    gap: 7% 5%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }

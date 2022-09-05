@@ -2,11 +2,28 @@
   padding: 30px 33px 18px 20px;
 
   background-color: $color-white-smoke;
+
+  @media (min-width: $vp-768) {
+    padding: 77px 316px 53px 52px;
+  }
+
+  @media (min-width: $vp-1024) {
+    padding: 41px 51px 55px 52px;
+  }
 }
 
 .program--loss {
   margin-bottom: 20px;
+
+  @media (min-width: $vp-768) {
+    margin-bottom: 30px;
+  }
+
+  @media (min-width: $vp-1024) {
+    margin-bottom: 0;
+  }
 }
+
 .program__title {
   margin: 0;
   margin-bottom: 29px;
@@ -16,6 +33,20 @@
   line-height: 37px;
   text-align: center;
   text-transform: uppercase;
+
+  @media (min-width: $vp-768) {
+    margin-bottom: 24px;
+
+    font-size: 36px;
+    line-height: 36px;
+    text-align: left;
+  }
+
+  @media (min-width: $vp-1024) {
+    margin-bottom: 73px;
+
+    text-align: center;
+  }
 }
 
 .program__description {
@@ -23,27 +54,46 @@
   margin-bottom: 15px;
   padding-bottom: 23px;
 
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 18px;
   font-family: $ff-arial;
   color: $color-nero;
 
   border-bottom: 1px solid $color-gainsboro;
+
+  @media (min-width: $vp-768) {
+    margin-bottom: 48px;
+    padding-bottom: 0;
+
+    font-size: 16px;
+    line-height: 24px;
+    color: $color-black;
+
+    border-bottom: none;
+  }
+
+  @media (min-width: $vp-1024) {
+    margin-bottom: 23px;
+
+    text-align: left;
+  }
 }
 
 .program__link {
-  font: inherit;
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
+  font-family: inherit;
   text-align: center;
   color: $color-black;
   text-transform: uppercase;
   text-decoration: none;
 
   background-color: $color-transparent;
-  border: none;
   cursor: pointer;
+
+  @media (min-width: $vp-768) {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }

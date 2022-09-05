@@ -4,12 +4,64 @@
   padding: 0;
 
   list-style: none;
+
+  @media (min-width: $vp-768) {
+    margin-bottom: 69px;
+    padding: 26px 38px 0;
+
+    border: 1px solid $color-very-light-grey;
+  }
+
+  @media (min-width: $vp-1024) {
+    margin-bottom: 0;
+    padding: 0;
+
+    border: none;
+  }
 }
 
 .product-list__item {
   padding-bottom: 19px;
 
   border-bottom: 1px solid $color-very-light-grey;
+
+  @media (min-width: $vp-768) {
+    padding-bottom: 28px;
+  }
+
+  @media (min-width: $vp-1024) {
+    display: flex;
+    padding: 15px 0 15px;
+  }
+}
+
+.product-list__item-wrapper {
+  @media (min-width: $vp-768) {
+    display: flex;
+  }
+
+  @media (min-width: $vp-1024) {
+    display: grid;
+    flex-grow: 1;
+
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.product-list__item:first-child {
+  @media (min-width: $vp-1024) {
+    border-top: 1px solid $color-very-light-grey;
+  }
+}
+
+.product-list__item:last-child {
+  @media (min-width: $vp-768) {
+    border-bottom: none;
+  }
+
+  @media (min-width: $vp-1024) {
+    border-bottom: 1px solid $color-very-light-grey;
+  }
 }
 
 .product-list__title {
@@ -23,34 +75,67 @@
   line-height: 16px;
   color: $color-nero;
   text-transform: uppercase;
+
+  @media (min-width: $vp-768) {
+    font-size: 20px;
+    line-height: 20px;
+  }
 }
 
 .product-list__info {
   display: flex;
   justify-content: space-between;
+
+  @media (min-width: $vp-768) {
+    margin-left: auto;
+  }
+
+  @media (min-width: $vp-1024) {
+    max-width: 288px;
+    margin-left: 0;
+  }
 }
 
 .product-list__term {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 14px;
-  font-family: "Arial";
-  color: $color-nero;
-}
-
-.product-list__description {
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 14px;
   font-family: $ff-arial;
   color: $color-nero;
+
+  @media (min-width: $vp-768) {
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
 
+.product-list__description {
+  font-size: 14px;
+  line-height: 14px;
+  font-family: $ff-arial;
+  color: $color-nero;
+
+  @media (min-width: $vp-768) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  @media (min-width: $vp-1024) {
+    margin-right: 47px;
+  }
+}
 
 .product-list__link {
   display: flex;
   justify-content: center;
   padding: 10px 80px;
+
+  @media (min-width: $vp-768) {
+    padding: 8px 80px;
+  }
+
+  @media (min-width: $vp-1024) {
+    align-self: center;
+    margin-left: auto;
+    padding: 8px 80px;
+  }
 }

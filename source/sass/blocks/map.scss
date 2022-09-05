@@ -1,12 +1,17 @@
 .map {
   max-height: 362px;
   overflow: hidden;
-}
 
+  @media (min-width: $vp-1024) {
+    max-height: 100%;
+  }
+}
 
 .map__image {
   width: 100%;
   height: auto;
+
+  vertical-align: middle;
 
   object-fit: contain;
   object-position: center;
