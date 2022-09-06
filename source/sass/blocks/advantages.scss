@@ -8,7 +8,6 @@
     padding-bottom: 47px;
   }
 
-
   @media (min-width: $vp-1024) {
     padding-right: 0;
     padding-bottom: 26px;
@@ -73,4 +72,120 @@
 
 .advantages__item:last-child {
   margin-bottom: 0;
+}
+
+.advantages__item--healthy-food {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 60px;
+    height: 60px;
+
+    background-image: url("../../img/mobile/leaf.svg");
+  }
+
+  @media (min-width: $vp-768) {
+    &::before {
+      content: "";
+      position: absolute;
+      top: 40px;
+      left: 0;
+
+      width: 80px;
+      height: 80px;
+
+      background-image: url("../../img/mobile/leaf.svg");
+    }
+  }
+}
+
+.advantages__item--powder-form {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 60px;
+    height: 60px;
+
+    background-image: url("../../img/mobile/powder.svg");
+  }
+
+  @media (min-width: $vp-768) {
+    &::before {
+      content: "";
+      position: absolute;
+      top: 40px;
+      left: 0;
+
+      width: 80px;
+      height: 80px;
+
+      background-image: url("../../img/mobile/powder.svg");
+    }
+  }
+}
+
+.advantages__item--power-replacement {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 60px;
+    height: 60px;
+
+    background-image: url("../../img/mobile/power.svg");
+  }
+
+  @media (min-width: $vp-768) {
+    &::before {
+      content: "";
+      position: absolute;
+      top: 40px;
+      left: 0;
+
+      width: 80px;
+      height: 80px;
+
+      background-image: url("../../img/mobile/power.svg");
+    }
+  }
+}
+
+.advantages__item--result {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 60px;
+    height: 60px;
+
+    background-image: url("../../img/mobile/watch.svg");
+  }
+
+  @media (min-width: $vp-768) {
+    &::before {
+      content: "";
+      position: absolute;
+      top: 40px;
+      left: 0;
+
+      width: 80px;
+      height: 80px;
+
+      background-image: url("../../img/mobile/watch.svg");
+    }
+  }
 }
