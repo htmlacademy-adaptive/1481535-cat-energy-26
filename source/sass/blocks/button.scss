@@ -11,4 +11,15 @@
   background-color: $color-apple;
   border: none;
   cursor: pointer;
+
+  &:hover {
+    background-color: $color-limeade;
+  }
+
+  &:active .product-card__link-active,
+  &:active .intro__button-active,
+  &:active .product-list__link-active,
+  &:active .personal-form__button-active {
+    opacity: 0.3;
+  }
 }

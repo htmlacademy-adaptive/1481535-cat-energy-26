@@ -8,8 +8,6 @@
   }
 }
 
-
-
 .main-nav__toggle {
   position: absolute;
   top: -39px;
@@ -92,10 +90,10 @@
 
 .main-nav--nojs .main-nav__wrapper {
   position: static;
+
   min-height: 0;
 }
 
 .main-nav--nojs .site-list__item {
   display: block;
 }
-

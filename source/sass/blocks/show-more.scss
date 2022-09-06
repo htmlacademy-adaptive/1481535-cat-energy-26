@@ -42,4 +42,12 @@
 
   background-color: $color-white-smoke;
   cursor: pointer;
+
+  &:hover {
+    background-color: $color-whisper;
+  }
+
+  &:active .show-more__link-active {
+    opacity: 0.3;
+  }
 }

@@ -28,6 +28,7 @@
   @media (min-width: $vp-768) {
     &--current {
       position: relative;
+
       &::after {
         content: "";
         position: absolute;
@@ -45,6 +46,7 @@
   @media (min-width: $vp-1024) {
     &--current {
       position: relative;
+
       &::after {
         content: "";
         position: absolute;
@@ -62,6 +64,7 @@
   @media (min-width: $vp-1024) {
     &--current-color {
       position: relative;
+
       &::after {
         content: "";
         position: absolute;
