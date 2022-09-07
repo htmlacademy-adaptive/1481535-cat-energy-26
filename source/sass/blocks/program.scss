@@ -36,8 +36,8 @@
       content: "";
       position: absolute;
       top: 81px;
-      left: auto;
       right: 62px;
+      left: auto;
 
       width: 200px;
       height: 211px;
@@ -80,8 +80,8 @@
       content: "";
       position: absolute;
       top: 91px;
-      left: auto;
       right: 28px;
+      left: auto;
 
       width: 268px;
       height: 200px;
@@ -175,11 +175,11 @@
   &::after {
     content: "";
     position: absolute;
-    top: 7px;
+    top: 9px;
     right: -50px;
 
-    width: 32px;
-    height: 10px;
+    width: 24px;
+    height: 12px;
 
     background-image: url("../../img/mobile/arrow.svg");
   }

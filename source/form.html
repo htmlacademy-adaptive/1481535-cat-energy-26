@@ -71,16 +71,19 @@
 
           <fieldset class="personal-form__fieldset personal-form__fieldset--program-selection">
             <label class="personal-form__radio-label-wrapper">
-              <input class="personal-form__radio-input form-radio" type="radio" name="program" value="weight-loss"
+              <input class="personal-form__radio-input form-radio visually-hidden" type="radio" name="program" value="weight-loss"
                 checked />
+              <span class="personal-form__control-mark-radio"></span>
               <span class="personal-form__radio-label form-label">похудение</span>
             </label>
             <label class="personal-form__radio-label-wrapper">
-              <input class="personal-form__radio-input form-radio" type="radio" name="program" value="weight-gain" />
+              <input class="personal-form__radio-input form-radio visually-hidden" type="radio" name="program" value="weight-gain" />
+              <span class="personal-form__control-mark-radio"></span>
               <span class="personal-form__radio-label form-label">Набор массы</span>
             </label>
             <label class="personal-form__radio-label-wrapper">
-              <input class="personal-form__radio-input form-radio" type="radio" name="program" value="advice" />
+              <input class="personal-form__radio-input form-radio visually-hidden" type="radio" name="program" value="advice" />
+              <span class="personal-form__control-mark-radio"></span>
               <span class="personal-form__radio-label form-label">Не знаю (Нуженваш совет)</span>
             </label>
           </fieldset>
@@ -112,20 +115,24 @@
           <legend class="personal-form__legend personal-form__legend--checkbox">Дополнительно</legend>
           <div class="personal-form__checkbox-wrapper">
             <label class="personal-form__checkbox-label-wrapper">
-              <input class="personal-form__checkbox" type="checkbox" name="additionally" value="sweetener" checked />
+              <input class="personal-form__checkbox visually-hidden" type="checkbox" name="additionally" value="sweetener" checked />
+              <span class="personal-form__control-mark"></span>
               <span class="personal-form__checkbox-label form-label">сахарозаменитель</span>
             </label>
             <label class="personal-form__checkbox-label-wrapper">
-              <input class="personal-form__checkbox" type="checkbox" name="additionally" value="drinking-water"
+              <input class="personal-form__checkbox visually-hidden" type="checkbox" name="additionally" value="drinking-water"
                 checked />
+              <span class="personal-form__control-mark"></span>
               <span class="personal-form__checkbox-label form-label">питьевая вода</span>
             </label>
             <label class="personal-form__checkbox-label-wrapper">
-              <input class="personal-form__checkbox" type="checkbox" name="additionally" value="milk" />
+              <input class="personal-form__checkbox visually-hidden" type="checkbox" name="additionally" value="milk" />
+              <span class="personal-form__control-mark"></span>
               <span class="personal-form__checkbox-label form-label">молоко</span>
             </label>
             <label class="personal-form__checkbox-label-wrapper">
-              <input class="personal-form__checkbox" type="checkbox" name="additionally" value="vitamins" checked />
+              <input class="personal-form__checkbox visually-hidden" type="checkbox" name="additionally" value="vitamins" checked />
+              <span class="personal-form__control-mark"></span>
               <span class="personal-form__checkbox-label form-label">витамины</span>
             </label>
           </div>
@@ -155,6 +162,14 @@
         </div>
       </div>
       <div class="contacts__map map">
+        <div style="position:relative;overflow:hidden;">
+          <a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps"
+            style="color:#eee;font-size:12px;position:absolute;top:0px;">Санкт‑Петербург</a><a
+            href="https://yandex.ru/maps/2/saint-petersburg/house/bolshaya_konyushennaya_ulitsa_19_8/Z0kYdQVjSEQPQFtjfXVyeXpgYQ==/?from=mapframe&ll=30.319327%2C59.937257&source=mapframe&utm_medium=mapframe&utm_source=maps&z=16"
+            style="color:#eee;font-size:12px;position:absolute;top:14px;">Большая Конюшенная улица, 19/8 на карте
+            Санкт‑Петербурга, ближайшее метро Гостиный двор — Яндекс Карты</a><iframe class="map__ifraim"
+            src="https://yandex.ru/map-widget/v1/-/CCUVi0x8gD" frameborder="1" allowfullscreen="true" title="Офис компании по адресу Большая Конюшенная улица, 19/8 на карте
+            Санкт‑Петербурга" style="position:relative;"></iframe></div>
         <img class="map__image" src="img/mobile/map.jpg" alt="Как к нам добраться.">
       </div>
     </section>
