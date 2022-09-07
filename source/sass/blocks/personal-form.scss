@@ -90,6 +90,36 @@
   }
 }
 
+.personal-form__text-input {
+  outline-color: $color-charcoal;
+
+  &:hover {
+    border-color: $color-very-light-grey;
+  }
+
+  &:focus,
+  &:focus-visible {
+    border-color: $color-charcoal;
+  }
+}
+
+.personal-form__text-input--email,
+.personal-form__text-input--tel {
+  padding-right: 58px;
+}
+
+.personal-form__text-input--email {
+  background-image: url("../../img/mobile/icon-email.svg");
+  background-position: 95% center;
+  background-repeat: no-repeat;
+}
+
+.personal-form__text-input--tel {
+  background-image: url("../../img/mobile/icon-phone.svg");
+  background-position: 95% center;
+  background-repeat: no-repeat;
+}
+
 .personal-form__text-label-wrapper--email {
   @media (min-width: $vp-1024) {
     margin-bottom: 0;
@@ -387,6 +417,10 @@
   height: 30px;
 
   border: 1px solid $color-very-light-grey;
+
+  @media (min-width: $vp-768) {
+    top: 0;
+  }
 }
 
 .personal-form__checkbox[type="checkbox"]:hover + .personal-form__control-mark {
@@ -413,7 +447,6 @@
 
   background-image: url("../../img/mobile/checkbox.svg");
 }
-
 
 .personal-form__checkbox-label-wrapper:last-child {
   margin-bottom: 34px;
