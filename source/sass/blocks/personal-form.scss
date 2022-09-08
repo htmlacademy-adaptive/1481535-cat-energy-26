@@ -76,11 +76,12 @@
   font-family: inherit;
 
   background-color: $color-white;
-  border: 1px solid $color-border-whisper;
+  border: none;
   outline-color: $color-charcoal;
+  box-shadow: 0 0 0 1px $color-border-whisper;
 
   @media (min-width: $vp-768) {
-    padding: 11px 18px;
+    padding: 10px 18px;
 
     font-size: 20px;
     line-height: 30px;
@@ -91,12 +92,31 @@
   }
 
   &:hover {
-    border-color: $color-very-light-grey;
+    box-shadow: 0 0 0 1px $color-very-light-grey;
   }
 
   &:focus,
   &:focus-visible {
-    border-color: $color-charcoal;
+    box-shadow: 0 0 0 2px $color-charcoal;
+  }
+
+  &:focus + svg path {
+    stroke: $color-apple;
+  }
+}
+
+.has-error {
+  outline-color: $color-light-coral;
+  box-shadow: 0 0 0 2px $color-light-coral;
+  &:hover,
+  &:focus,
+  &:active {
+    outline-color: $color-light-coral;
+    box-shadow: 0 0 0 2px $color-light-coral;
+  }
+
+  &:focus + svg path {
+    stroke: $color-light-coral;
   }
 }
 
@@ -105,16 +125,31 @@
   padding-right: 58px;
 }
 
-.personal-form__text-input--email {
-  background-image: url("../../img/mobile/icon-email.svg");
-  background-repeat: no-repeat;
-  background-position: 95% center;
+.personal-form__text-label-wrapper--email,
+.personal-form__text-label-wrapper--tel {
+  position: relative;
 }
 
-.personal-form__text-input--tel {
-  background-image: url("../../img/mobile/icon-phone.svg");
-  background-repeat: no-repeat;
-  background-position: 95% center;
+.email-svg {
+  position: absolute;
+  top: 16px;
+  right: 15px;
+
+  @media (min-width: $vp-768) {
+    top: 19px;
+    right: 20px;
+  }
+}
+
+.email-tel {
+  position: absolute;
+  top: 13px;
+  right: 13px;
+
+  @media (min-width: $vp-768) {
+    top: 16px;
+    right: 16px;
+  }
 }
 
 .personal-form__text-label-wrapper--email {
@@ -229,11 +264,34 @@
   min-height: 150px;
   padding: 10px 12px;
 
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: $ff-oswald;
+  color: $color-charcoal;
+
+  border: none;
+  outline-color: $color-charcoal;
+  box-shadow: 0 0 0 1px $color-border-whisper;
+
   resize: none;
 
   @media (min-width: $vp-768) {
     min-height: 174px;
     padding: 10px 20px;
+
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  &:hover {
+    box-shadow: 0 0 0 1px $color-very-light-grey;
+  }
+
+  &:focus,
+  &:focus-visible {
+    box-shadow: 0 0 0 2px $color-charcoal;
   }
 }
 

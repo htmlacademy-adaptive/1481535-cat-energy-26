@@ -71,36 +71,52 @@
 
           <fieldset class="personal-form__fieldset personal-form__fieldset--program-selection">
             <label class="personal-form__radio-label-wrapper">
-              <input class="personal-form__radio-input form-radio visually-hidden" type="radio" name="program" value="weight-loss"
-                checked />
+              <input class="personal-form__radio-input form-radio visually-hidden" type="radio" name="program"
+                value="weight-loss" checked />
               <span class="personal-form__control-mark-radio"></span>
               <span class="personal-form__radio-label form-label">похудение</span>
             </label>
             <label class="personal-form__radio-label-wrapper">
-              <input class="personal-form__radio-input form-radio visually-hidden" type="radio" name="program" value="weight-gain" />
+              <input class="personal-form__radio-input form-radio visually-hidden" type="radio" name="program"
+                value="weight-gain" />
               <span class="personal-form__control-mark-radio"></span>
               <span class="personal-form__radio-label form-label">Набор массы</span>
             </label>
             <label class="personal-form__radio-label-wrapper">
-              <input class="personal-form__radio-input form-radio visually-hidden" type="radio" name="program" value="advice" />
+              <input class="personal-form__radio-input form-radio visually-hidden" type="radio" name="program"
+                value="advice" />
               <span class="personal-form__control-mark-radio"></span>
               <span class="personal-form__radio-label form-label">Не знаю (Нуженваш совет)</span>
             </label>
           </fieldset>
         </div>
-
+         <!-- Поля формы принимают цвет ошибки при добалении на поле класса has-error -->
         <fieldset class="personal-form__fieldset personal-form__fieldset--email">
           <legend class="personal-form__legend personal-form__legend--email">Контактные данные (владельца кота)</legend>
           <div class="personal-form__fieldset-wrapper">
             <label class="personal-form__text-label-wrapper personal-form__text-label-wrapper--email">
               <span class="personal-form__text-label form-label">E-mail:*</span>
-              <input class="personal-form__text-input personal-form__text-input--email form-input" type="email" name="email"
-                placeholder="kuklachev@gmail.com" />
+              <input class="personal-form__text-input personal-form__text-input--email form-input" type="email"
+                name="email" placeholder="kuklachev@gmail.com" />
+              <svg class="email-svg" aria-hidden="true" focusable="false" width="20" height="15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path stroke="#222" stroke-width="1.3"
+                  d="M1.65 5.85v8M18.65 5.85v8M1 13.2h18M1 1.2h18M18.35 3.03 10 9.53l-8.35-6.5V1.5h16.7v1.53Z" /></svg>
             </label>
-            <label class="personal-form__text-label-wrapper">
+            <label class="personal-form__text-label-wrapper personal-form__text-label-wrapper--tel">
               <span class="personal-form__text-label form-label">Телефон:*</span>
               <input class="personal-form__text-input personal-form__text-input--tel form-input" type="tel" name="phone"
                 placeholder="8 (960) 900-60-90" />
+              <svg class="email-tel" aria-hidden="true" focusable="false" width="20" height="21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#a)" fill="#000">
+                  <path
+                    d="M17.9 9.75H9.4v1.2h8.5l-2.1 2.11.9.9 3.1-3.1a.75.75 0 0 0 0-.9l-3.1-3.12-.9.9 2.1 2.01ZM8.1 19.79v-6.22a.65.65 0 0 0-.6-.6H3.1a1.23 1.23 0 0 0 1.2 1.2h2.5v5.02H3.1a1.78 1.78 0 0 1-1.9-1.71V3.43a1.78 1.78 0 0 1 1.7-1.8h3.9v5.01H4.4a1.22 1.22 0 0 0-1.2 1.2h4.4a.65.65 0 0 0 .6-.6V.92a.86.86 0 0 0-.7-.6H3.1A3 3 0 0 0 0 3.23v13.95a2.9 2.9 0 0 0 2.9 3.1h4.6a.5.5 0 0 0 .6-.5Z" />
+                </g>
+                <defs>
+                  <clipPath id="a">
+                    <path fill="#fff" transform="translate(0 .32)" d="M0 0h20v20.07H0z" />
+                  </clipPath>
+                </defs>
+              </svg>
             </label>
           </div>
         </fieldset>
@@ -115,13 +131,14 @@
           <legend class="personal-form__legend personal-form__legend--checkbox">Дополнительно</legend>
           <div class="personal-form__checkbox-wrapper">
             <label class="personal-form__checkbox-label-wrapper">
-              <input class="personal-form__checkbox visually-hidden" type="checkbox" name="additionally" value="sweetener" checked />
+              <input class="personal-form__checkbox visually-hidden" type="checkbox" name="additionally"
+                value="sweetener" checked />
               <span class="personal-form__control-mark"></span>
               <span class="personal-form__checkbox-label form-label">сахарозаменитель</span>
             </label>
             <label class="personal-form__checkbox-label-wrapper">
-              <input class="personal-form__checkbox visually-hidden" type="checkbox" name="additionally" value="drinking-water"
-                checked />
+              <input class="personal-form__checkbox visually-hidden" type="checkbox" name="additionally"
+                value="drinking-water" checked />
               <span class="personal-form__control-mark"></span>
               <span class="personal-form__checkbox-label form-label">питьевая вода</span>
             </label>
@@ -131,7 +148,8 @@
               <span class="personal-form__checkbox-label form-label">молоко</span>
             </label>
             <label class="personal-form__checkbox-label-wrapper">
-              <input class="personal-form__checkbox visually-hidden" type="checkbox" name="additionally" value="vitamins" checked />
+              <input class="personal-form__checkbox visually-hidden" type="checkbox" name="additionally"
+                value="vitamins" checked />
               <span class="personal-form__control-mark"></span>
               <span class="personal-form__checkbox-label form-label">витамины</span>
             </label>
