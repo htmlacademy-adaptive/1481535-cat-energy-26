@@ -40,7 +40,7 @@
   @media (min-width: $vp-768) {
     display: grid;
 
-    gap: 37px 153px;
+    gap: 37px 10%;
     grid-template-columns: 1fr 1fr;
   }
 
@@ -51,6 +51,9 @@
 }
 
 .advantages__item {
+  position: relative;
+
+  min-height: 60px;
   margin-bottom: 20px;
   padding-left: 80px;
 
@@ -58,6 +61,19 @@
   line-height: 18px;
   font-family: $ff-arial;
   color: $color-nero;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 60px;
+    height: 60px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 
   @media (min-width: $vp-768) {
     min-height: 280px;
@@ -67,6 +83,11 @@
 
     font-size: 16px;
     line-height: 24px;
+
+    &::before {
+      width: 80px;
+      height: 80px;
+    }
   }
 }
 
@@ -75,121 +96,25 @@
 }
 
 .advantages__item--healthy-food {
-  position: relative;
-
   &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    width: 60px;
-    height: 60px;
-
-    background-image: url("../../img/mobile/leaf.svg");
-  }
-
-  @media (min-width: $vp-768) {
-    &::before {
-      content: "";
-      position: absolute;
-      top: 40px;
-      left: 0;
-
-      width: 80px;
-      height: 80px;
-
-      background-image: url("../../img/mobile/leaf.svg");
-    }
+    background-image: url("../img/mobile/leaf.svg");
   }
 }
 
 .advantages__item--powder-form {
-  position: relative;
-
   &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    width: 60px;
-    height: 60px;
-
-    background-image: url("../../img/mobile/powder.svg");
-  }
-
-  @media (min-width: $vp-768) {
-    &::before {
-      content: "";
-      position: absolute;
-      top: 40px;
-      left: 0;
-
-      width: 80px;
-      height: 80px;
-
-      background-image: url("../../img/mobile/powder.svg");
-    }
+    background-image: url("../img/mobile/powder.svg");
   }
 }
 
 .advantages__item--power-replacement {
-  position: relative;
-
   &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    width: 60px;
-    height: 60px;
-
-    background-image: url("../../img/mobile/power.svg");
-  }
-
-  @media (min-width: $vp-768) {
-    &::before {
-      content: "";
-      position: absolute;
-      top: 40px;
-      left: 0;
-
-      width: 80px;
-      height: 80px;
-
-      background-image: url("../../img/mobile/power.svg");
-    }
+    background-image: url("../img/mobile/power.svg");
   }
 }
 
 .advantages__item--result {
-  position: relative;
-
   &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    width: 60px;
-    height: 60px;
-
-    background-image: url("../../img/mobile/watch.svg");
-  }
-
-  @media (min-width: $vp-768) {
-    &::before {
-      content: "";
-      position: absolute;
-      top: 40px;
-      left: 0;
-
-      width: 80px;
-      height: 80px;
-
-      background-image: url("../../img/mobile/watch.svg");
-    }
+    background-image: url("../img/mobile/watch.svg");
   }
 }

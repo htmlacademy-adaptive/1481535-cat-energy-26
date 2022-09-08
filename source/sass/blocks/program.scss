@@ -26,7 +26,7 @@
     width: 50px;
     height: 53px;
 
-    background-image: url("../../img/mobile/cat-back.svg");
+    background-image: url("../img/mobile/cat-back.svg");
   }
 
   @media (min-width: $vp-768) {
@@ -72,7 +72,7 @@
     width: 67px;
     height: 50px;
 
-    background-image: url("../../img/mobile/cat-gain.svg");
+    background-image: url("../img/mobile/cat-gain.svg");
   }
 
   @media (min-width: $vp-768) {
@@ -105,6 +105,7 @@
 .program__title {
   margin: 0;
   margin-bottom: 29px;
+  padding-left: 45px;
 
   font-weight: 400;
   font-size: 24px;
@@ -114,6 +115,7 @@
 
   @media (min-width: $vp-768) {
     margin-bottom: 24px;
+    padding-left: 0;
 
     font-size: 36px;
     line-height: 36px;
@@ -122,6 +124,7 @@
 
   @media (min-width: $vp-1024) {
     margin-bottom: 73px;
+    padding-left: 108px;
 
     text-align: center;
   }
@@ -160,6 +163,8 @@
 .program__link {
   position: relative;
 
+  padding-right: 40px;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
@@ -176,16 +181,23 @@
     content: "";
     position: absolute;
     top: 9px;
-    right: -50px;
+    right: 0;
 
     width: 24px;
     height: 12px;
 
-    background-image: url("../../img/mobile/arrow.svg");
+    background-image: url("../img/mobile/arrow.svg");
+    transform-origin: left;
+
+    transition: transform 0.2s ease-in;
   }
 
   @media (min-width: $vp-768) {
     font-size: 20px;
     line-height: 30px;
+  }
+
+  &:hover::after {
+    transform: scaleX(1.5);
   }
 }
