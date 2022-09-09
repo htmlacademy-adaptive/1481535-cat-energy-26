@@ -12,6 +12,20 @@
     margin: auto 0;
     padding-top: 0;
   }
+
+  svg {
+    fill: $color-charcoal;
+  }
+
+  &:hover {
+    svg {
+      fill: $color-apple;
+    }
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 .copyright-link__name {

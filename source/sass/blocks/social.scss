@@ -15,7 +15,6 @@
   }
 }
 
-
 .social__item {
   margin-right: 24px;
 }
@@ -27,4 +26,20 @@
 .social__link {
   width: 28px;
   height: 22px;
+}
+
+.social__icon {
+  &:hover {
+    path {
+      fill: $color-apple;
+    }
+  }
+
+  &:active {
+    path {
+      opacity: 0.3;
+
+      fill: $color-apple;
+    }
+  }
 }

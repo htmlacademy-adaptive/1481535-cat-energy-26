@@ -8,7 +8,6 @@
     padding-bottom: 47px;
   }
 
-
   @media (min-width: $vp-1024) {
     padding-right: 0;
     padding-bottom: 26px;
@@ -38,10 +37,12 @@
 
   list-style-type: none;
 
+  counter-reset: number;
+
   @media (min-width: $vp-768) {
     display: grid;
 
-    gap: 37px 153px;
+    gap: 37px 10%;
     grid-template-columns: 1fr 1fr;
   }
 
@@ -52,6 +53,10 @@
 }
 
 .advantages__item {
+  position: relative;
+  z-index: 2;
+
+  min-height: 60px;
   margin-bottom: 20px;
   padding-left: 80px;
 
@@ -60,17 +65,76 @@
   font-family: $ff-arial;
   color: $color-nero;
 
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 60px;
+    height: 60px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
   @media (min-width: $vp-768) {
     min-height: 280px;
     margin-bottom: 0;
-    padding-top: 151px;
+    padding-top: 113px;
     padding-left: 0;
 
     font-size: 16px;
     line-height: 24px;
+
+    &::before {
+      width: 80px;
+      height: 80px;
+    }
+
+    &::after {
+      content: "" counter(number);
+      position: absolute;
+      top: -38px;
+      right: 0;
+      z-index: -1;
+
+      font-style: normal;
+      font-weight: 400;
+      font-size: 280px;
+      line-height: 280px;
+      font-family: $ff-oswald;
+      color: $color-white-smoke;
+
+      counter-increment: number;
+    }
   }
 }
 
 .advantages__item:last-child {
   margin-bottom: 0;
+}
+
+.advantages__item--healthy-food {
+  &::before {
+    background-image: url("../img/mobile/leaf.svg");
+  }
+}
+
+.advantages__item--powder-form {
+  &::before {
+    background-image: url("../img/mobile/powder.svg");
+  }
+}
+
+.advantages__item--power-replacement {
+  &::before {
+    background-image: url("../img/mobile/power.svg");
+  }
+}
+
+.advantages__item--result {
+  &::before {
+    background-image: url("../img/mobile/watch.svg");
+  }
 }
