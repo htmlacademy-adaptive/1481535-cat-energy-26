@@ -45,125 +45,132 @@
   </header>
 
   <main>
-    <section class="selection-form container">
-      <h1 class="selection-form__title">
-        Подбор программы
-      </h1>
-      <p class="selection-form__description">
-        Заполните анкету, и мы подберем<br> программу питания для вашего кота
-      </p>
-      <form class="selection-form__form personal-form" action="https://echo.htmlacademy.ru" method="post">
-        <div class="personal-form-wrapper">
-          <fieldset class="personal-form__fieldset personal-form__fieldset--personal-date">
-            <label class="personal-form__text-label-wrapper">
-              <span class="personal-form__text-label form-label">Имя:*</span>
-              <input class="personal-form__text-input form-input" type="text" name="name" placeholder="БАРСИК" />
-            </label>
-            <label class="personal-form__text-label-wrapper">
-              <span class="personal-form__text-label form-label">Вес (кг):*</span>
-              <input class="personal-form__text-input form-input" type="text" name="weight" placeholder="7" />
-            </label>
-            <label class="personal-form__text-label-wrapper">
-              <span class="personal-form__text-label form-label">Возраст (лет):</span>
-              <input class="personal-form__text-input form-input" type="text" name="age" placeholder="7" />
-            </label>
+    <section class="selection-form">
+      <div class="container">
+        <h1 class="selection-form__title">
+          Подбор программы
+        </h1>
+        <p class="selection-form__description">
+          Заполните анкету, и мы подберем<br> программу питания для вашего кота
+        </p>
+        <form class="selection-form__form personal-form" action="https://echo.htmlacademy.ru" method="post">
+          <div class="personal-form-wrapper">
+            <fieldset class="personal-form__fieldset personal-form__fieldset--personal-date">
+              <label class="personal-form__text-label-wrapper">
+                <span class="personal-form__text-label form-label">Имя:*</span>
+                <input class="personal-form__text-input form-input" type="text" name="name" placeholder="БАРСИК" />
+              </label>
+              <label class="personal-form__text-label-wrapper">
+                <span class="personal-form__text-label form-label">Вес (кг):*</span>
+                <input class="personal-form__text-input form-input" type="text" name="weight" placeholder="7" />
+              </label>
+              <label class="personal-form__text-label-wrapper">
+                <span class="personal-form__text-label form-label">Возраст (лет):</span>
+                <input class="personal-form__text-input form-input" type="text" name="age" placeholder="7" />
+              </label>
+            </fieldset>
+
+            <fieldset class="personal-form__fieldset personal-form__fieldset--program-selection">
+              <label class="personal-form__radio-label-wrapper">
+                <input class="personal-form__radio-input form-radio visually-hidden" type="radio" name="program"
+                  value="weight-loss" checked />
+                <span class="personal-form__control-mark-radio"></span>
+                <span class="personal-form__radio-label form-label">похудение</span>
+              </label>
+              <label class="personal-form__radio-label-wrapper">
+                <input class="personal-form__radio-input form-radio visually-hidden" type="radio" name="program"
+                  value="weight-gain" />
+                <span class="personal-form__control-mark-radio"></span>
+                <span class="personal-form__radio-label form-label">Набор массы</span>
+              </label>
+              <label class="personal-form__radio-label-wrapper">
+                <input class="personal-form__radio-input form-radio visually-hidden" type="radio" name="program"
+                  value="advice" />
+                <span class="personal-form__control-mark-radio"></span>
+                <span class="personal-form__radio-label form-label">Не знаю (Нуженваш совет)</span>
+              </label>
+            </fieldset>
+          </div>
+          <!-- Поля формы принимают цвет ошибки при добалении на поле класса has-error -->
+          <fieldset class="personal-form__fieldset personal-form__fieldset--email">
+            <legend class="personal-form__legend personal-form__legend--email">Контактные данные (владельца кота)
+            </legend>
+            <div class="personal-form__fieldset-wrapper">
+              <label class="personal-form__text-label-wrapper personal-form__text-label-wrapper--email">
+                <span class="personal-form__text-label form-label">E-mail:*</span>
+                <input class="personal-form__text-input personal-form__text-input--email form-input" type="email"
+                  name="email" placeholder="kuklachev@gmail.com" />
+                <svg class="email-svg" aria-hidden="true" focusable="false" width="20" height="15" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="#222" stroke-width="1.3"
+                    d="M1.65 5.85v8M18.65 5.85v8M1 13.2h18M1 1.2h18M18.35 3.03 10 9.53l-8.35-6.5V1.5h16.7v1.53Z" />
+                </svg>
+              </label>
+              <label class="personal-form__text-label-wrapper personal-form__text-label-wrapper--tel">
+                <span class="personal-form__text-label form-label">Телефон:*</span>
+                <input class="personal-form__text-input personal-form__text-input--tel form-input" type="tel"
+                  name="phone" placeholder="8 (960) 900-60-90" />
+                <svg class="email-tel" aria-hidden="true" focusable="false" width="20" height="21" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#a)" fill="#000">
+                    <path
+                      d="M17.9 9.75H9.4v1.2h8.5l-2.1 2.11.9.9 3.1-3.1a.75.75 0 0 0 0-.9l-3.1-3.12-.9.9 2.1 2.01ZM8.1 19.79v-6.22a.65.65 0 0 0-.6-.6H3.1a1.23 1.23 0 0 0 1.2 1.2h2.5v5.02H3.1a1.78 1.78 0 0 1-1.9-1.71V3.43a1.78 1.78 0 0 1 1.7-1.8h3.9v5.01H4.4a1.22 1.22 0 0 0-1.2 1.2h4.4a.65.65 0 0 0 .6-.6V.92a.86.86 0 0 0-.7-.6H3.1A3 3 0 0 0 0 3.23v13.95a2.9 2.9 0 0 0 2.9 3.1h4.6a.5.5 0 0 0 .6-.5Z" />
+                  </g>
+                  <defs>
+                    <clipPath id="a">
+                      <path fill="#fff" transform="translate(0 .32)" d="M0 0h20v20.07H0z" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </label>
+            </div>
           </fieldset>
 
-          <fieldset class="personal-form__fieldset personal-form__fieldset--program-selection">
-            <label class="personal-form__radio-label-wrapper">
-              <input class="personal-form__radio-input form-radio visually-hidden" type="radio" name="program"
-                value="weight-loss" checked />
-              <span class="personal-form__control-mark-radio"></span>
-              <span class="personal-form__radio-label form-label">похудение</span>
-            </label>
-            <label class="personal-form__radio-label-wrapper">
-              <input class="personal-form__radio-input form-radio visually-hidden" type="radio" name="program"
-                value="weight-gain" />
-              <span class="personal-form__control-mark-radio"></span>
-              <span class="personal-form__radio-label form-label">Набор массы</span>
-            </label>
-            <label class="personal-form__radio-label-wrapper">
-              <input class="personal-form__radio-input form-radio visually-hidden" type="radio" name="program"
-                value="advice" />
-              <span class="personal-form__control-mark-radio"></span>
-              <span class="personal-form__radio-label form-label">Не знаю (Нуженваш совет)</span>
-            </label>
+          <fieldset class="personal-form__fieldset personal-form__fieldset--textarea">
+            <legend class="personal-form__legend personal-form__legend--textarea">Комментарий</legend>
+            <textarea class="personal-form__textarea" aria-label="Расскажите обо всех повадках кота."
+              name="comment-field" rows="6" cols="50" placeholder="Расскажите обо всех повадках кота"></textarea>
           </fieldset>
-        </div>
-         <!-- Поля формы принимают цвет ошибки при добалении на поле класса has-error -->
-        <fieldset class="personal-form__fieldset personal-form__fieldset--email">
-          <legend class="personal-form__legend personal-form__legend--email">Контактные данные (владельца кота)</legend>
-          <div class="personal-form__fieldset-wrapper">
-            <label class="personal-form__text-label-wrapper personal-form__text-label-wrapper--email">
-              <span class="personal-form__text-label form-label">E-mail:*</span>
-              <input class="personal-form__text-input personal-form__text-input--email form-input" type="email"
-                name="email" placeholder="kuklachev@gmail.com" />
-              <svg class="email-svg" aria-hidden="true" focusable="false" width="20" height="15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path stroke="#222" stroke-width="1.3"
-                  d="M1.65 5.85v8M18.65 5.85v8M1 13.2h18M1 1.2h18M18.35 3.03 10 9.53l-8.35-6.5V1.5h16.7v1.53Z" /></svg>
-            </label>
-            <label class="personal-form__text-label-wrapper personal-form__text-label-wrapper--tel">
-              <span class="personal-form__text-label form-label">Телефон:*</span>
-              <input class="personal-form__text-input personal-form__text-input--tel form-input" type="tel" name="phone"
-                placeholder="8 (960) 900-60-90" />
-              <svg class="email-tel" aria-hidden="true" focusable="false" width="20" height="21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#a)" fill="#000">
-                  <path
-                    d="M17.9 9.75H9.4v1.2h8.5l-2.1 2.11.9.9 3.1-3.1a.75.75 0 0 0 0-.9l-3.1-3.12-.9.9 2.1 2.01ZM8.1 19.79v-6.22a.65.65 0 0 0-.6-.6H3.1a1.23 1.23 0 0 0 1.2 1.2h2.5v5.02H3.1a1.78 1.78 0 0 1-1.9-1.71V3.43a1.78 1.78 0 0 1 1.7-1.8h3.9v5.01H4.4a1.22 1.22 0 0 0-1.2 1.2h4.4a.65.65 0 0 0 .6-.6V.92a.86.86 0 0 0-.7-.6H3.1A3 3 0 0 0 0 3.23v13.95a2.9 2.9 0 0 0 2.9 3.1h4.6a.5.5 0 0 0 .6-.5Z" />
-                </g>
-                <defs>
-                  <clipPath id="a">
-                    <path fill="#fff" transform="translate(0 .32)" d="M0 0h20v20.07H0z" />
-                  </clipPath>
-                </defs>
-              </svg>
-            </label>
-          </div>
-        </fieldset>
 
-        <fieldset class="personal-form__fieldset personal-form__fieldset--textarea">
-          <legend class="personal-form__legend personal-form__legend--textarea">Комментарий</legend>
-          <textarea class="personal-form__textarea" aria-label="Расскажите обо всех повадках кота." name="comment-field"
-            rows="6" cols="50" placeholder="Расскажите обо всех повадках кота"></textarea>
-        </fieldset>
-
-        <fieldset class="personal-form__fieldset">
-          <legend class="personal-form__legend personal-form__legend--checkbox">Дополнительно</legend>
-          <div class="personal-form__checkbox-wrapper">
-            <label class="personal-form__checkbox-label-wrapper">
-              <input class="personal-form__checkbox visually-hidden" type="checkbox" name="additionally"
-                value="sweetener" checked />
-              <span class="personal-form__control-mark"></span>
-              <span class="personal-form__checkbox-label form-label">сахарозаменитель</span>
-            </label>
-            <label class="personal-form__checkbox-label-wrapper">
-              <input class="personal-form__checkbox visually-hidden" type="checkbox" name="additionally"
-                value="drinking-water" checked />
-              <span class="personal-form__control-mark"></span>
-              <span class="personal-form__checkbox-label form-label">питьевая вода</span>
-            </label>
-            <label class="personal-form__checkbox-label-wrapper">
-              <input class="personal-form__checkbox visually-hidden" type="checkbox" name="additionally" value="milk" />
-              <span class="personal-form__control-mark"></span>
-              <span class="personal-form__checkbox-label form-label">молоко</span>
-            </label>
-            <label class="personal-form__checkbox-label-wrapper">
-              <input class="personal-form__checkbox visually-hidden" type="checkbox" name="additionally"
-                value="vitamins" checked />
-              <span class="personal-form__control-mark"></span>
-              <span class="personal-form__checkbox-label form-label">витамины</span>
-            </label>
+          <fieldset class="personal-form__fieldset">
+            <legend class="personal-form__legend personal-form__legend--checkbox">Дополнительно</legend>
+            <div class="personal-form__checkbox-wrapper">
+              <label class="personal-form__checkbox-label-wrapper">
+                <input class="personal-form__checkbox visually-hidden" type="checkbox" name="additionally"
+                  value="sweetener" checked />
+                <span class="personal-form__control-mark"></span>
+                <span class="personal-form__checkbox-label form-label">сахарозаменитель</span>
+              </label>
+              <label class="personal-form__checkbox-label-wrapper">
+                <input class="personal-form__checkbox visually-hidden" type="checkbox" name="additionally"
+                  value="drinking-water" checked />
+                <span class="personal-form__control-mark"></span>
+                <span class="personal-form__checkbox-label form-label">питьевая вода</span>
+              </label>
+              <label class="personal-form__checkbox-label-wrapper">
+                <input class="personal-form__checkbox visually-hidden" type="checkbox" name="additionally"
+                  value="milk" />
+                <span class="personal-form__control-mark"></span>
+                <span class="personal-form__checkbox-label form-label">молоко</span>
+              </label>
+              <label class="personal-form__checkbox-label-wrapper">
+                <input class="personal-form__checkbox visually-hidden" type="checkbox" name="additionally"
+                  value="vitamins" checked />
+                <span class="personal-form__control-mark"></span>
+                <span class="personal-form__checkbox-label form-label">витамины</span>
+              </label>
+            </div>
+          </fieldset>
+          <div class="personal-form__submit-block">
+            <button class="personal-form__button button" type="submit">
+              <span class="personal-form__button-active">
+                отправить заявку
+              </span>
+            </button>
+            <span class="personal-form__fieldset-required">* — Обязательные поля</span>
           </div>
-        </fieldset>
-        <div class="personal-form__submit-block">
-          <button class="personal-form__button button" type="submit">
-            <span class="personal-form__button-active">
-              отправить заявку
-            </span>
-          </button>
-          <span class="personal-form__fieldset-required">* — Обязательные поля</span>
-        </div>
-      </form>
+        </form>
+      </div>
     </section>
 
     <section class="contacts contacts--bg">
@@ -244,13 +251,11 @@
           <span class="copyright-link__name">HTML Academy</span>
           <svg class="copyright-link__icon" aria-hidden="true" focusable="false" width="27" height="34" fill="none"
             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 34">
-            <g clip-path="url(#a)">
-              <path
-                d="M13.64.02 13.5 0 0 1.4v24.61L13.5 34 27 26.01V1.41L13.64 0Zm11.6 25L13.5 31.96 1.77 25.02v-10.1l11.68 6.93.02 1.25-8.02-4.75v1.23l8.04 4.8.02 1.3-8.05-4.76v1.22l8.04 4.81 8.12-4.83V16.9l3.62-2.15v10.26Zm0-11.57L22 15.33l-1.48.88-7.06-4.19-.01 1.23 6.04 3.57-.06.03-.13.07-.86.5-4.98-2.95-.01 1.22 3.93 2.33-.93.61-.02.01-2.97-1.74-.01 1.23 1.94 1.13-1.98 1.19L1.8 13.58l11.63-6.96 11.8 6.83Zm0-1.22L13.43 5.3 1.77 12.22V2.99L13.5 1.76 25.23 3v9.24Z"
-                fill="#666" />
+            <g clip-path="url(#a1)">
+              <path d="M13.64.02 13.5 0 0 1.4v24.61L13.5 34 27 26.01V1.41L13.64 0Zm11.6 25L13.5 31.96 1.77 25.02v-10.1l11.68 6.93.02 1.25-8.02-4.75v1.23l8.04 4.8.02 1.3-8.05-4.76v1.22l8.04 4.81 8.12-4.83V16.9l3.62-2.15v10.26Zm0-11.57L22 15.33l-1.48.88-7.06-4.19-.01 1.23 6.04 3.57-.06.03-.13.07-.86.5-4.98-2.95-.01 1.22 3.93 2.33-.93.61-.02.01-2.97-1.74-.01 1.23 1.94 1.13-1.98 1.19L1.8 13.58l11.63-6.96 11.8 6.83Zm0-1.22L13.43 5.3 1.77 12.22V2.99L13.5 1.76 25.23 3v9.24Z" />
             </g>
             <defs>
-              <clipPath id="a">
+              <clipPath id="a1">
                 <path fill="#fff" d="M0 0h27v34H0z" />
               </clipPath>
             </defs>

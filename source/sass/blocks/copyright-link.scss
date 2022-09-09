@@ -12,6 +12,20 @@
     margin: auto 0;
     padding-top: 0;
   }
+
+  svg {
+    fill: $color-charcoal;
+  }
+
+  &:hover {
+    svg {
+      fill: $color-apple;
+    }
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 .copyright-link__name {
@@ -24,20 +38,4 @@
   font-family: $ff-arial;
   vertical-align: middle;
   color: $color-nero;
-}
-
-.copyright-link__icon {
-  &:hover {
-    path {
-      fill: $color-apple;
-    }
-  }
-
-  &:active {
-    path {
-      opacity: 0.3;
-
-      fill: $color-apple;
-    }
-  }
 }

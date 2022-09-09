@@ -13,6 +13,7 @@
   @media (min-width: $vp-1024) {
     padding-top: 95px;
     padding-bottom: 92px;
+
     pointer-events: none;
   }
 }
@@ -35,12 +36,12 @@
   justify-content: space-between;
   padding-top: 26px;
   padding-bottom: 26px;
+
   pointer-events: all;
 
   @media (min-width: $vp-768) {
     padding: 56px 70px 56px 70px;
   }
-
 
   @media (min-width: $vp-1024) {
     justify-content: space-between;

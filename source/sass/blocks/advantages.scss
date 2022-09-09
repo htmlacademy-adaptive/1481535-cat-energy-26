@@ -54,6 +54,7 @@
 
 .advantages__item {
   position: relative;
+  z-index: 2;
 
   min-height: 60px;
   margin-bottom: 20px;
@@ -63,7 +64,6 @@
   line-height: 18px;
   font-family: $ff-arial;
   color: $color-nero;
-  z-index: 2;
 
   &::before {
     content: "";
