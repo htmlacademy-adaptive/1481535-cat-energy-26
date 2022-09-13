@@ -2,6 +2,10 @@
   position: relative;
 
   padding-top: 27px;
+
+  @media (min-width: $vp-1024) {
+    max-height: 541px;
+  }
 }
 
 .intro::before {
@@ -13,7 +17,7 @@
   width: 100%;
   height: 302px;
 
-  background-image: linear-gradient(rgba($color-apple, 0.85), rgba($color-apple, 0.85)), url("../img/mobile/index-background-mobile.jpg");
+  background-image: linear-gradient(rgba($color-apple, 0.85), rgba($color-apple, 0.85)), url("../img/index-background-mobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -34,7 +38,7 @@
     height: 694px;
     overflow: hidden;
 
-    background-image: linear-gradient(rgba($color-apple, 0.85), rgba($color-apple, 0.85)), url("../img/desktop/index-background-desktop.jpg");
+    background-image: linear-gradient(rgba($color-apple, 0.85), rgba($color-apple, 0.85)), url("../img/index-background-desktop.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -107,6 +111,10 @@
 .intro__image {
   display: block;
   margin: auto;
+
+  @media (min-width: $vp-1024) {
+    transform: translate(114px, -299px);
+  }
 }
 
 .intro__button {
@@ -116,7 +124,7 @@
 
   @media (min-width: $vp-768) {
     position: relative;
-    top: -270px;
+    top: -600px;
 
     display: inline-block;
     margin-left: 82px;
@@ -128,7 +136,7 @@
 
   @media (min-width: $vp-1024) {
     position: relative;
-    top: -270px;
+    top: -499px;
 
     margin-left: 82px;
   }

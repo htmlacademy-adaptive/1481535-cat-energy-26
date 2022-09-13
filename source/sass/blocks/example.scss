@@ -81,7 +81,7 @@
 .example__description {
   width: 100%;
   max-width: 1300px;
-  margin-bottom: 20px;
+  margin-bottom: 36px;
   padding: 0 20px;
 
   font-size: 14px;
@@ -133,7 +133,7 @@
 
 .example__results {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0;
   margin-bottom: 20px;
 
@@ -141,6 +141,7 @@
     display: flex;
     justify-content: flex-start;
     margin-bottom: 80px;
+    margin-left: 34px;
   }
 
   @media (min-width: $vp-1024) {
@@ -149,7 +150,49 @@
 }
 
 .example__result {
-  margin-right: 42px;
+  position: relative;
+
+  @media (min-width: $vp-768) {
+    margin-right: 84px;
+  }
+}
+
+.example__result--before::before {
+  content: "";
+  position: absolute;
+  top: -14px;
+  left: -33px;
+
+  width: 124px;
+  height: 56px;
+
+  background-image: url("../img/weight-back.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @media (min-width: $vp-768) {
+    width: 162px;
+    height: 77px;
+  }
+}
+
+.example__result--after::after {
+  content: "";
+  position: absolute;
+  top: -14px;
+  right: -22px;
+
+  width: 124px;
+  height: 56px;
+
+  background-image: url("../img/weight-back.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @media (min-width: $vp-768) {
+    width: 162px;
+    height: 77px;
+  }
 }
 
 .example__result-term {
@@ -219,6 +262,12 @@
     margin-left: 0;
 
     text-align: left;
+  }
+}
+
+.example__price {
+  @media (min-width: $vp-1024) {
+    margin-left: 63px;
   }
 }
 

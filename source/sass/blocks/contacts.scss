@@ -40,7 +40,7 @@
   pointer-events: all;
 
   @media (min-width: $vp-768) {
-    padding: 56px 70px 56px 70px;
+    padding: 56px 41px 56px 41px;
   }
 
   @media (min-width: $vp-1024) {
@@ -78,5 +78,12 @@
   @media (min-width: $vp-768) {
     font-size: 16px;
     line-height: 20px;
+  }
+}
+
+.contacts__city {
+  @media (min-width: $vp-768) {
+    display: block;
+    margin-top: 25px;
   }
 }
