@@ -186,14 +186,30 @@
   }
 
   @media (min-width: $vp-1024) {
-    margin-bottom: 65px; //временно
+    margin-bottom: 65px;
   }
 }
 
 .personal-form__fieldset--program-selection::before {
   content: "";
   position: absolute;
-  top: 0;
+  top: -22px;
+  left: -20px;
+
+  width: 100vh;
+  height: 1px;
+
+  background-color: $color-border-whisper;
+
+  @media (min-width: $vp-768) {
+    display: none;
+  }
+}
+
+.personal-form__fieldset--program-selection::after {
+  content: "";
+  position: absolute;
+  bottom: -19px;
   left: -20px;
 
   width: 100vh;
@@ -520,7 +536,7 @@
   width: 18px;
   height: 14px;
 
-  background-image: url("../../img/mobile/checkbox.svg");
+  background-image: url("../../img/checkbox.svg");
 }
 
 .personal-form__checkbox-label-wrapper:last-child {
