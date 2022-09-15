@@ -280,9 +280,11 @@
 
 .personal-form__legend--email {
   margin-bottom: 35px;
+  width: 64%;
 
   @media (min-width: $vp-768) {
     margin-bottom: 76px;
+    width: auto;
   }
 }
 
