@@ -16,11 +16,14 @@
   @media (min-width: $vp-768) {
     width: 560px;
     height: 512px;
+    margin-bottom: -37px;
 
     transform: translateY(-150px);
   }
 
   @media (min-width: $vp-1024) {
+    margin-bottom: -200px;
+
     transform: translateY(-208px);
   }
 }
