@@ -47,7 +47,7 @@
 
 .page-intro {
   @media (min-width: $vp-1024) {
-    margin-bottom: 60px;
+    margin-bottom: 21px;
   }
 }
 
@@ -93,7 +93,7 @@
   text-transform: uppercase;
 
   @media (min-width: $vp-768) {
-    margin-bottom: 49px;
+    margin-bottom: 19px;
     padding-left: 87px;
 
     font-size: 20px;
@@ -112,8 +112,12 @@
   display: block;
   margin: auto;
 
+  @media (min-width: $vp-768) {
+    margin-bottom: -67px;
+  }
+
   @media (min-width: $vp-1024) {
-    transform: translate(114px, -299px);
+    transform: translate(114px, -314px);
   }
 }
 
@@ -124,7 +128,8 @@
 
   @media (min-width: $vp-768) {
     position: relative;
-    top: -600px;
+    top: -508px;
+    left: 6px;
 
     display: inline-block;
     margin-left: 82px;
@@ -136,7 +141,8 @@
 
   @media (min-width: $vp-1024) {
     position: relative;
-    top: -499px;
+    top: -429px;
+    left: 0;
 
     margin-left: 82px;
   }
