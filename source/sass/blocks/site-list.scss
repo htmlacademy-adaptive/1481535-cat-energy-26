@@ -1,10 +1,18 @@
 .site-list {
+  position: absolute;
+  top: 0;
+  left: -20px;
+  z-index: 1;
+
+  width: 100vw;
   margin: 0;
   padding: 0;
 
   list-style-type: none;
 
   @media (min-width: $vp-768) {
+    position: static;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
