@@ -125,11 +125,11 @@
   &::before {
     background-image: url("../img/powder.svg");
 
-    @media(min-width: $vp-768) {
+    @media (min-width: $vp-768) {
       left: 42px;
     }
 
-    @media(min-width: $vp-1024) {
+    @media (min-width: $vp-1024) {
       left: 0;
     }
   }
@@ -145,11 +145,11 @@
   &::before {
     background-image: url("../img/watch.svg");
 
-    @media(min-width: $vp-768) {
+    @media (min-width: $vp-768) {
       left: 42px;
     }
 
-    @media(min-width: $vp-1024) {
+    @media (min-width: $vp-1024) {
       left: 0;
     }
   }

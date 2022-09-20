@@ -1,11 +1,13 @@
 .additional-goods {
+  width: 100%;
   padding-top: 25px;
   padding-bottom: 19px;
+  overflow: hidden;
 
   background-color: $color-white;
 
   @media (min-width: $vp-768) {
-    padding-top: 79px;
+    padding-top: 67px;
     padding-bottom: 28px;
   }
 
@@ -16,6 +18,8 @@
 }
 
 .additional-goods__title {
+  position: relative;
+
   margin: 0;
   padding-bottom: 36px;
 
@@ -27,18 +31,51 @@
 
   border-bottom: 1px solid $color-very-light-grey;
 
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: calc(100% + 14px);
+
+    width: 1000%;
+    height: 2px;
+
+    background-color: $color-apple;
+  }
+
   @media (min-width: $vp-768) {
+    display: inline-block;
     margin-bottom: 80px;
     padding-bottom: 0;
+    padding-left: 38px;
 
     font-size: 36px;
     line-height: 36px;
 
     border-bottom: none;
+
+    &::after {
+      content: "";
+      left: calc(100% + 40px);
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: calc(100% + 39px);
+
+      width: 1000%;
+      height: 2px;
+
+      background-color: $color-apple;
+    }
   }
 
   @media (min-width: $vp-1024) {
+    display: inline-block;
     margin-bottom: 81px;
+    padding-left: 0;
   }
 }
 

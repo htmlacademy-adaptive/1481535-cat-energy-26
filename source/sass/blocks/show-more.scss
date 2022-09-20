@@ -5,7 +5,7 @@
   background-color: $color-white;
 
   @media (min-width: $vp-768) {
-    padding: 216px 38px 39px 38px;
+    padding: 161px 38px 39px 38px;
 
     border: 2px solid $color-white-smoke;
   }
@@ -27,6 +27,9 @@
 
   @media (min-width: $vp-768) {
     margin-bottom: 23px;
+
+    font-size: 20px;
+    line-height: 22px;
   }
 }
 
@@ -74,6 +77,9 @@
 
   @media (min-width: $vp-768) {
     margin-bottom: 87px;
+
+    font-size: 16px;
+    line-height: 18px;
   }
 }
 

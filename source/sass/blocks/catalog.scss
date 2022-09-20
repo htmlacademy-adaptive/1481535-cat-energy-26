@@ -2,6 +2,10 @@
   padding-top: 27px;
 
   background-color: $color-white;
+
+  @media (min-width: $vp-1024) {
+    margin-bottom: 27px;
+  }
 }
 
 .catalog__title {
@@ -38,14 +42,14 @@
   @media (min-width: $vp-768) {
     display: grid;
 
-    gap: 60px 60px;
+    gap: 140px 60px;
     grid-template-columns: 1fr 1fr;
   }
 
   @media (min-width: $vp-1024) {
     display: grid;
 
-    gap: 7% 5%;
+    gap: 15% 7%;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }

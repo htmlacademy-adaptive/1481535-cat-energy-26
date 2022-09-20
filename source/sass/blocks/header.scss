@@ -10,10 +10,16 @@
   }
 
   @media (min-width: $vp-1024) {
-    margin-bottom: 35px;
+    margin-bottom: 70px;
     padding-top: 53px;
 
     background-color: $color-transparent;
+  }
+}
+
+.header--catalog {
+  @media (min-width: $vp-1024) {
+    margin-bottom: 35px;
   }
 }
 
