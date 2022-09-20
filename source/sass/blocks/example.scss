@@ -7,14 +7,14 @@
   background-color: $color-white-smoke;
 
   @media (min-width: $vp-768) {
-    padding-top: 43px;
+    padding-top: 3px;
     padding-bottom: 0;
 
     background-color: $color-white;
   }
 
   @media (min-width: $vp-1024) {
-    padding-top: 41px;
+    padding-top: 4px;
   }
 }
 
@@ -90,7 +90,7 @@
   color: $color-nero;
 
   @media (min-width: $vp-768) {
-    margin-bottom: 54px;
+    margin-bottom: 67px;
     padding: 0 30px;
 
     font-size: 16px;
@@ -99,7 +99,8 @@
 
   @media (min-width: $vp-1024) {
     max-width: 436px;
-    margin-bottom: 69px;
+    margin-top: 0;
+    margin-bottom: 86px;
     padding: 0;
 
     font-size: 16px;
@@ -122,7 +123,7 @@
     display: flex;
     flex-direction: row;
     padding: 0 30px;
-    padding-bottom: 250px;
+    padding-bottom: 172px;
   }
 
   @media (min-width: 1024px) {
@@ -266,7 +267,13 @@
 }
 
 .example__price {
+  @media (min-width: $vp-768) {
+    display: block;
+    margin-top: 7px;
+  }
+
   @media (min-width: $vp-1024) {
+    display: inline;
     margin-left: 63px;
   }
 }

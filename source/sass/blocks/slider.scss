@@ -1,6 +1,10 @@
 .slider {
   background-color: $color-white-smoke;
 
+  @media (min-width: $vp-768) {
+    margin-bottom: -51px;
+  }
+
   @media (min-width: $vp-1024) {
     background-color: $color-transparent;
   }
@@ -16,11 +20,14 @@
   @media (min-width: $vp-768) {
     width: 560px;
     height: 512px;
+    margin-bottom: -37px;
 
-    transform: translateY(-150px);
+    transform: translateY(-152px);
   }
 
   @media (min-width: $vp-1024) {
+    margin-bottom: -200px;
+
     transform: translateY(-208px);
   }
 }
@@ -33,6 +40,10 @@
 
 .slider__slides--before img {
   object-position: 13%;
+
+  @media (min-width: $vp-768) {
+    object-position: 9%;
+  }
 }
 
 .slider__slides--after img {

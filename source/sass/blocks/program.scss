@@ -4,7 +4,7 @@
   background-color: $color-white-smoke;
 
   @media (min-width: $vp-768) {
-    padding: 77px 316px 53px 52px;
+    padding: 81px 316px 53px 52px;
   }
 
   @media (min-width: $vp-1024) {
@@ -154,7 +154,7 @@
   }
 
   @media (min-width: $vp-1024) {
-    margin-bottom: 23px;
+    margin-bottom: 25px;
 
     text-align: left;
   }
@@ -181,7 +181,7 @@
     content: "";
     position: absolute;
     top: 9px;
-    right: 0;
+    right: -14px;
 
     width: 24px;
     height: 12px;

@@ -6,6 +6,8 @@
   border-bottom: 1px solid $color-whisper;
 
   @media (min-width: $vp-768) {
+    position: relative;
+
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -35,10 +37,18 @@
   min-width: 140px;
 
   @media (min-width: $vp-768) {
+    position: absolute;
+    top: -73px;
+    left: 79px;
+
     display: block;
     margin: 0 auto;
+  }
 
-    transform: translateY(-65px);
+  @media (min-width: $vp-1024) {
+    position: static;
+
+    transform: translateY(-38px);
   }
 }
 
@@ -78,6 +88,14 @@
 
   @media (min-width: $vp-1024) {
     margin-bottom: 22px;
+  }
+}
+
+.product-card__title br {
+  display: none;
+
+  @media (min-width: $vp-768) {
+    display: block;
   }
 }
 

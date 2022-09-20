@@ -24,7 +24,7 @@
   color: $color-black;
 
   @media (min-width: $vp-768) {
-    margin-bottom: 32px;
+    margin-bottom: 75px;
 
     font-size: 60px;
     line-height: 60px;
@@ -124,6 +124,14 @@
 .advantages__item--powder-form {
   &::before {
     background-image: url("../img/powder.svg");
+
+    @media (min-width: $vp-768) {
+      left: 42px;
+    }
+
+    @media (min-width: $vp-1024) {
+      left: 0;
+    }
   }
 }
 
@@ -136,5 +144,13 @@
 .advantages__item--result {
   &::before {
     background-image: url("../img/watch.svg");
+
+    @media (min-width: $vp-768) {
+      left: 42px;
+    }
+
+    @media (min-width: $vp-1024) {
+      left: 0;
+    }
   }
 }

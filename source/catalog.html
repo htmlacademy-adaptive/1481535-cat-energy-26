@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Кэт энерджи</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.min.css">
   <link rel="icon" href="favicon.ico">
   <link rel="icon" href="img/favicons/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="img/favicons/apple.png">
@@ -13,7 +13,7 @@
 </head>
 
 <body class="page__body">
-  <header class="header">
+  <header class="header header--catalog">
     <div class="header__wrapper container">
       <a class="header__logo" href="index.html">
         <picture>
@@ -58,8 +58,10 @@
         <div class="catalog__card product-card">
           <div class="product-card__wrapper">
             <picture>
+              <source media="(min-width: 1024px)"
+                srcset="img/catalog-chicken-500-desktop.png 1x, img/catalog-chicken-500-desktop@2x.png 2x" width="172" height="196">
               <source media="(min-width: 768px)"
-                srcset="img/catalog-chicken-500-tablet.png 1x, img/catalog-chicken-500-tablet@2x.png 2x" width="161" height="172">
+                srcset="img/catalog-chicken-500-tablet.png 1x, img/catalog-chicken-500-tablet@2x.png 2x" width="168" height="200">
               <img class="product-card__img" src="img/catalog-chicken-500.png"
                 srcset="img/catalog-chicken-500@2x.png 2x" width="68" height="86"
                 alt="Корм со вкусом курицы 500 грамм.">
@@ -67,7 +69,7 @@
             <div class="product-card__title-wrapper">
               <h3 class="product-card__title">
                 Cat Energy
-                PRO
+                PRO<br>
                 500&nbspг
               </h3>
               <dl class="product-card__list">
@@ -102,12 +104,11 @@
             <span class="product-card__link-active">заказать</span>
           </a>
         </div>
-        <!--вторая карточка-->
         <div class="catalog__card product-card">
           <div class="product-card__wrapper">
             <picture>
               <source media="(min-width: 1024px)"
-                srcset="img/catalog-chicken-1000-deskpot.png 1x, img/catalog-chicken-1000-deskpot@2x.png 2x" width="172" height="202">
+                srcset="img/catalog-chicken-1000-desktop.png 1x, img/catalog-chicken-1000-desktop@2x.png 2x" width="172" height="196">
               <source media="(min-width: 768px)"
                 srcset="img/catalog-chicken-1000-tablet.png 1x, img/catalog-chicken-1000-tablet@2x.png 2x" width="168" height="200">
               <img class="product-card__img" src="img/catalog-chicken-1000.png"
@@ -118,7 +119,7 @@
             <div class="product-card__title-wrapper">
               <h3 class="product-card__title">
                 Cat Energy
-                PRO
+                PRO<br>
                 1000&nbspг
               </h3>
               <dl class="product-card__list">
@@ -153,20 +154,20 @@
             <span class="product-card__link-active">заказать</span>
           </a>
         </div>
-        <!--третья карточка-->
-
         <div class="catalog__card product-card">
           <div class="product-card__wrapper">
             <picture>
+              <source media="(min-width: 1024px)"
+                srcset="img/catalog-fish-500-desktop.png 1x, img/catalog-fish-500-desktop@2x.png 2x" width="172" height="196">
               <source media="(min-width: 768px)"
-                srcset="img/catalog-fish-500-tablet.png 1x, img/catalog-fish-500-tablet@2x.png 2x" width="163" height="174">
+                srcset="img/catalog-fish-500-tablet.png 1x, img/catalog-fish-500-tablet@2x.png 2x" width="168" height="200">
               <img class="product-card__img" src="img/catalog-fish-500.png" srcset="img/catalog-fish-500@2x.png 2x"
                 width="68" height="78" alt="Корм со вкусом рыбы 1000 грамм.">
             </picture>
             <div class="product-card__title-wrapper">
               <h3 class="product-card__title">
                 Cat Energy
-                PRO
+                PRO<br>
                 500&nbspг
               </h3>
               <dl class="product-card__list">
@@ -201,7 +202,6 @@
             <span class="product-card__link-active">заказать</span>
           </a>
         </div>
-        <!--четвертая карточка-->
         <div class="catalog__card product-card">
           <div class="product-card__wrapper">
             <picture>
@@ -215,7 +215,7 @@
             <div class="product-card__title-wrapper">
               <h3 class="product-card__title">
                 Cat Energy
-                PRO
+                PRO<br>
                 1000&nbspг
               </h3>
               <dl class="product-card__list">
@@ -250,20 +250,21 @@
             <span class="product-card__link-active">заказать</span>
           </a>
         </div>
-        <!--пятая карточка-->
         <div class="catalog__card product-card">
           <div class="product-card__wrapper">
             <picture>
+              <source media="(min-width: 1024px)"
+                srcset="img/catalog-buckwheat-500-desktop.png 1x, img/catalog-buckwheat-500-desktop@2x.png 2x" width="172" height="196">
               <source media="(min-width: 768px)"
-                srcset="img/catalog-buckwheat-500-tablet.png 1x, img/catalog-buckwheat-500-tablet@2x.png 2x" width="161" height="171">
-              <img class="product-card__img" src="img/catalog-buckwheat-500.png"
+                srcset="img/catalog-buckwheat-500-tablet.png 1x, img/catalog-buckwheat-500-tablet@2x.png 2x" width="168" height="200">
+              <img class="product-card__img product-card__img--transform" src="img/catalog-buckwheat-500.png"
                 srcset="img/catalog-buckwheat-500@2x.png 2x" width="68" height="78"
                 alt="Корм со вкусом гречки 500 грамм.">
             </picture>
             <div class="product-card__title-wrapper">
               <h3 class="product-card__title">
                 Cat Energy
-                SLIM
+                SLIM<br>
                 500&nbspг
               </h3>
               <dl class="product-card__list">
@@ -298,7 +299,6 @@
             <span class="product-card__link-active">заказать</span>
           </a>
         </div>
-        <!--шестая карточка-->
         <div class="catalog__card product-card">
           <div class="product-card__wrapper">
             <picture>
@@ -313,7 +313,7 @@
             <div class="product-card__title-wrapper">
               <h3 class="product-card__title">
                 Cat Energy
-                SLIM
+                SLIM<br>
                 1000&nbspг
               </h3>
               <dl class="product-card__list">
@@ -348,19 +348,20 @@
             <span class="product-card__link-active">заказать</span>
           </a>
         </div>
-        <!--седьмая карточка-->
         <div class="catalog__card product-card">
           <div class="product-card__wrapper">
             <picture>
+              <source media="(min-width: 1024px)"
+                srcset="img/catalog-rice-500-desktop.png 1x, img/catalog-rice-500-desktop@2x.png 2x" width="172" height="196">
               <source media="(min-width: 768px)"
-                srcset="img/catalog-rice-500-tablet.png 1x, img/catalog-rice-500-tablet@2x.png 2x" width="163" height="174">
-              <img class="product-card__img" src="img/catalog-rice-500.png" srcset="img/catalog-rice-500@2x.png 2x"
+                srcset="img/catalog-rice-500-tablet.png 1x, img/catalog-rice-500-tablet@2x.png 2x" width="168" height="200">
+              <img class="product-card__img product-card__img--transform" src="img/catalog-rice-500.png" srcset="img/catalog-rice-500@2x.png 2x"
                 width="68" height="78" alt="Корм со вкусом риса 500 грамм.">
             </picture>
             <div class="product-card__title-wrapper">
               <h3 class="product-card__title">
                 Cat Energy
-                SLIM
+                SLIM<br>
                 500&nbspг
               </h3>
               <dl class="product-card__list">
@@ -524,7 +525,7 @@
             <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">
               <svg class="social__icon" aria-hidden="true" focusable="false" width="28" height="22" viewBox="0 0 28 22"
                 xmlns="http://www.w3.org/2000/svg">
-                <use href="./img/sprite.svg#vk"></use>
+                <use href="./img/sprite.svg#vkontakte"></use>
               </svg>
               <span class="visually-hidden">
                 Мы в Вконтакте

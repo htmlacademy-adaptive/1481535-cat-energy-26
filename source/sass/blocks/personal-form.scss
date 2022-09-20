@@ -15,7 +15,7 @@
 }
 
 .personal-form__fieldset--personal-date {
-  margin-bottom: 50px;
+  margin-bottom: 56px;
 
   @media (min-width: $vp-768) {
     margin-bottom: 72px;
@@ -169,14 +169,14 @@
   }
 
   @media (min-width: $vp-1024) {
-    margin-bottom: 67px;
+    margin-bottom: 38px;
   }
 }
 
 .personal-form__fieldset--program-selection {
   position: relative;
 
-  margin-bottom: 45px;
+  margin-bottom: 50px;
 
   @media (min-width: $vp-768) {
     margin-bottom: 71px;
@@ -279,9 +279,11 @@
 }
 
 .personal-form__legend--email {
+  width: 64%;
   margin-bottom: 35px;
 
   @media (min-width: $vp-768) {
+    width: auto;
     margin-bottom: 76px;
   }
 }
@@ -354,7 +356,7 @@
 }
 
 .personal-form__legend--checkbox {
-  margin-bottom: 34px;
+  margin-bottom: 38px;
 
   @media (min-width: $vp-768) {
     margin-bottom: 57px;
@@ -399,6 +401,9 @@
     margin-right: 61px;
     margin-bottom: 0;
     padding: 13px 45px;
+
+    font-size: 20px;
+    line-height: 22px;
   }
 
   @media (min-width: $vp-768) {
@@ -431,7 +436,7 @@
   position: relative;
 
   display: block;
-  margin-bottom: 13px;
+  margin-bottom: 23px;
   padding-left: 46px;
 
   @media (min-width: $vp-768) {
@@ -486,7 +491,7 @@
   position: relative;
 
   display: block;
-  margin-bottom: 13px;
+  margin-bottom: 23px;
   padding-left: 47px;
 
   @media (min-width: $vp-768) {
@@ -540,7 +545,7 @@
 }
 
 .personal-form__checkbox-label-wrapper:last-child {
-  margin-bottom: 34px;
+  margin-bottom: 44px;
 
   @media (min-width: $vp-1024) {
     margin-right: 0;
