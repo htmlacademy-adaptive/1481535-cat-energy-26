@@ -177,6 +177,10 @@
   background-color: $color-transparent;
   cursor: pointer;
 
+  &:active {
+    opacity: 0.3;
+  }
+
   &::after {
     content: "";
     position: absolute;

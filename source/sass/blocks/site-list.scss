@@ -126,11 +126,11 @@
 
 .site-list__item a[href] {
   &:hover {
-    opacity: 0.6;
+    color: rgba($color-black, 0.6);
   }
 
   &:active {
-    opacity: 0.3;
+    color: rgba($color-black, 0.3);
   }
 }
 

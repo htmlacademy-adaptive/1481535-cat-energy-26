@@ -5,7 +5,7 @@
   border: none;
 }
 
-.personal-form-wrapper {
+.personal-form__wrapper {
   @media (min-width: $vp-1024) {
     display: grid;
 
@@ -33,7 +33,7 @@
   font-size: 16px;
   line-height: 18px;
   vertical-align: middle;
-  color: $color-nero;
+  color: $color-charcoal;
   text-transform: uppercase;
 
   @media (min-width: $vp-768) {
@@ -74,6 +74,7 @@
   font-size: 16px;
   line-height: 18px;
   font-family: inherit;
+  text-transform: uppercase;
 
   background-color: $color-white;
   border: none;
@@ -308,6 +309,7 @@
   line-height: 18px;
   font-family: $ff-oswald;
   color: $color-charcoal;
+  text-transform: uppercase;
 
   border: none;
   outline: none;
@@ -373,6 +375,7 @@
 
   @media (min-width: $vp-1024) {
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 61px;
   }
 }
@@ -460,6 +463,12 @@
   border: 1px solid $color-silver;
 }
 
+.personal-form__radio-input[type="radio"]:focus + .personal-form__control-mark-radio,
+.personal-form__radio-input[type="radio"]:focus-visible + .personal-form__control-mark-radio {
+  outline: 1px solid $color-apple;
+}
+
+
 .personal-form__radio-input[type="radio"]:disabled + .personal-form__control-mark-radio {
   border: 1px solid rgba($color-silver, 0.3);
 }
@@ -480,6 +489,10 @@
 
   background-color: $color-apple;
   border-radius: 50%;
+}
+
+.personal-form__radio-input[type="radio"]:active + .personal-form__control-mark-radio {
+  outline: none;
 }
 
 .personal-form__radio-label-wrapper:last-child {
@@ -521,6 +534,15 @@
 
 .personal-form__checkbox[type="checkbox"]:hover + .personal-form__control-mark {
   border: 1px solid $color-silver;
+}
+
+.personal-form__checkbox[type="checkbox"]:focus + .personal-form__control-mark,
+.personal-form__checkbox[type="checkbox"]:focus-visible + .personal-form__control-mark {
+  outline: 1px solid $color-apple;
+}
+
+.personal-form__checkbox[type="checkbox"]:active + .personal-form__control-mark {
+  outline: none;
 }
 
 .personal-form__checkbox[type="checkbox"]:disabled + .personal-form__control-mark {

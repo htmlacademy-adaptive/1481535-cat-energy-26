@@ -31,7 +31,7 @@
   }
 }
 
-.tablet-wrapper {
+.header__tablet-wrapper {
   @media (min-width: $vp-768) {
     display: flex;
     justify-content: space-between;
