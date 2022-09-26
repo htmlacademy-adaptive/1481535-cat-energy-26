@@ -7,10 +7,10 @@
   background-color: $color-white;
 
   @media (min-width: $vp-768) {
-    padding-bottom: 72px;
+    padding-bottom: 76px;
   }
 
-  @media (min-width: $vp-768) {
+  @media (min-width: $vp-1024) {
     padding-bottom: 82px;
   }
 }

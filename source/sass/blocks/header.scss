@@ -6,12 +6,12 @@
 
   @media (min-width: $vp-768) {
     max-width: 100%;
-    margin-bottom: 22px;
+    margin-bottom: 11px;
     padding-top: 24px;
   }
 
   @media (min-width: $vp-1024) {
-    margin-bottom: 70px;
+    margin-bottom: 60px;
     padding-top: 53px;
 
     background-color: $color-transparent;
@@ -19,8 +19,22 @@
 }
 
 .header--catalog {
+  @media (min-width: $vp-768) {
+    margin-bottom: 18px;
+  }
+
   @media (min-width: $vp-1024) {
     margin-bottom: 35px;
+  }
+}
+
+.header--form {
+  @media (min-width: $vp-768) {
+    margin-bottom: 22px;
+  }
+
+  @media (min-width: $vp-1024) {
+    margin-bottom: 32px;
   }
 }
 
@@ -41,7 +55,7 @@
 .header__logo {
   display: flex;
   flex-direction: column;
-  padding-bottom: 10px;
+  padding-bottom: 14px;
 }
 
 .header__logo-image {

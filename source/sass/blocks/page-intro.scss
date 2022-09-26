@@ -15,8 +15,7 @@
     background-position: center;
     background-size: cover;
 
-    @media (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi) {
+    @media (min-resolution: 2dppx) {
       background-image: linear-gradient(rgba($color-apple, 0.85), rgba($color-apple, 0.85)), url("../img/index-background-desktop@2x.jpg");
     }
   }
@@ -24,6 +23,6 @@
 
 .page-intro {
   @media (min-width: $vp-1024) {
-    margin-bottom: 21px;
+    margin-bottom: 39px;
   }
 }

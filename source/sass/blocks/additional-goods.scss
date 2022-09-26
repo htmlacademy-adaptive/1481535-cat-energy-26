@@ -1,18 +1,18 @@
 .additional-goods {
   width: 100%;
   padding-top: 25px;
-  padding-bottom: 19px;
+  padding-bottom: 36px;
   overflow: hidden;
 
   background-color: $color-white;
 
   @media (min-width: $vp-768) {
     padding-top: 67px;
-    padding-bottom: 28px;
+    padding-bottom: 76px;
   }
 
   @media (min-width: $vp-1024) {
-    padding-top: 115px;
+    padding-top: 106px;
     padding-bottom: 86px;
   }
 }
@@ -96,8 +96,13 @@
   justify-content: center;
   padding: 186px 60px 43px 60px;
 
+  @media (min-width: $vp-768) {
+    justify-content: flex-end;
+    padding: 70px 124px 69px 422px;
+  }
+
   @media (min-width: $vp-1024) {
-    padding: 186px 10px 43px 10px;
+    padding: 186px 36px 43px 10px;
   }
 }
 
@@ -115,13 +120,30 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-  @media (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi) {
+  @media (min-resolution: 2dppx) {
+    background-image: linear-gradient(rgba($color-apple, 0.85), rgba($color-apple, 0.85)), url("../img/bg-gifts@2x.jpg");
+  }
+
+  @media (min-width: $vp-768) {
+    background-image: linear-gradient(rgba($color-apple, 0.85), rgba($color-apple, 0.85)), url("../img/bg-gifts-catalog.jpg");
+
+    @media (min-resolution: 2dppx) {
+      background-image: linear-gradient(rgba($color-apple, 0.85), rgba($color-apple, 0.85)), url("../img/bg-gifts-catalog@2x.jpg");
+    }
+  }
+
+  @media (min-width: $vp-1024) {
+    background-image: linear-gradient(rgba($color-apple, 0.85), rgba($color-apple, 0.85)), url("../img/bg-gifts.jpg");
+
+    @media (min-resolution: 2dppx) {
       background-image: linear-gradient(rgba($color-apple, 0.85), rgba($color-apple, 0.85)), url("../img/bg-gifts@2x.jpg");
     }
+  }
 }
 
 .additional-goods__gift-description {
+  position: relative;
+
   max-width: 161px;
   margin: 0;
 
@@ -130,4 +152,37 @@
   font-family: $ff-arial;
   text-align: center;
   color: $color-white;
+
+  @media (min-width: $vp-768) {
+    text-align: left;
+  }
+
+  @media (min-width: $vp-1024) {
+    text-align: center;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -128px;
+    left: 38px;
+    z-index: 3;
+
+    width: 78px;
+    height: 80px;
+
+    background-image: url("../img/icon-gift.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    @media (min-width: $vp-768) {
+      top: -12px;
+      left: -344px;
+    }
+
+    @media (min-width: $vp-1024) {
+      top: -128px;
+      left: 38px;
+    }
+  }
 }

@@ -3,6 +3,11 @@
 
   padding-top: 27px;
 
+  @media (min-width: $vp-768) {
+    padding-top: 37px;
+    margin-bottom: -10px;
+  }
+
   @media (min-width: $vp-1024) {
     max-height: 541px;
   }
@@ -21,8 +26,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-  @media (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi) {
+  @media (min-resolution: 2dppx) {
     background-image: linear-gradient(rgba($color-apple, 0.85), rgba($color-apple, 0.85)), url("../img/index-background-mobile@2x.jpg");
   }
 
@@ -114,12 +118,12 @@
 
   @media (min-width: $vp-768) {
     position: relative;
-    top: -508px;
+    top: -513px;
     left: 6px;
 
     display: inline-block;
     margin-left: 82px;
-    padding: 14px 26px;
+    padding: 17px 28px;
 
     font-size: 20px;
     line-height: 20px;
@@ -127,7 +131,7 @@
 
   @media (min-width: $vp-1024) {
     position: relative;
-    top: -429px;
+    top: -433px;
     left: 0;
 
     margin-left: 82px;
