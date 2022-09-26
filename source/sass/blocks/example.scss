@@ -1,6 +1,6 @@
 .example {
   width: 100%;
-  padding-top: 25px;
+  padding-top: 22px;
   padding-bottom: 40px;
   overflow: hidden;
 
@@ -87,7 +87,7 @@
   font-size: 14px;
   line-height: 18px;
   font-family: $ff-arial;
-  color: $color-nero;
+  color: $color-charcoal;
 
   @media (min-width: $vp-768) {
     margin-bottom: 67px;
@@ -136,11 +136,14 @@
   display: flex;
   justify-content: space-around;
   margin: 0;
+  margin-right: -19px;
+  margin-left: -10px;
   margin-bottom: 20px;
 
   @media (min-width: $vp-768) {
     display: flex;
     justify-content: flex-start;
+    margin-right: 0;
     margin-bottom: 80px;
     margin-left: 34px;
   }
@@ -193,6 +196,7 @@
   @media (min-width: $vp-768) {
     width: 162px;
     height: 77px;
+    right: -11px;
   }
 }
 
@@ -206,6 +210,8 @@
 
   @media (min-width: $vp-768) {
     margin-bottom: 11px;
+    margin-left: 18px;
+    margin-right: 20px;
 
     font-size: 30px;
     line-height: 37px;
@@ -226,7 +232,7 @@
   line-height: 12px;
   font-family: $ff-arial;
   text-align: center;
-  color: $color-nero;
+  color: $color-charcoal;
 
   @media (min-width: $vp-768) {
     font-size: 14px;
@@ -240,7 +246,7 @@
 
 .example__expenses {
   margin: 0;
-  margin-bottom: 40px;
+  margin-bottom: 18px;
 
   font-size: 14px;
   line-height: 20px;

@@ -19,6 +19,7 @@
   height: 16px;
   margin-left: auto;
   padding-bottom: 18px;
+  background-color: $color-transparent;
 
   border: none;
   cursor: pointer;
@@ -85,6 +86,15 @@
 
 .main-nav--nojs .main-nav__toggle {
   display: none;
+}
+
+.main-nav--nojs .site-list {
+  display: block;
+  position: static;
+
+  @media (min-width: $vp-768) {
+    display: flex;
+  }
 }
 
 .main-nav--nojs .main-nav__wrapper {

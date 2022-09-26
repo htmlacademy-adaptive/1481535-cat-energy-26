@@ -1,5 +1,5 @@
 .catalog {
-  padding-top: 27px;
+  padding-top: 30px;
 
   background-color: $color-white;
 
@@ -17,7 +17,7 @@
   font-weight: 400;
   font-size: 36px;
   line-height: 36px;
-  text-align: center;
+  text-align: left;
   color: $color-black;
 
   border-bottom: 1px solid $color-whisper;
@@ -49,7 +49,7 @@
   @media (min-width: $vp-1024) {
     display: grid;
 
-    gap: 15% 7%;
+    gap: 14% 7%;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }

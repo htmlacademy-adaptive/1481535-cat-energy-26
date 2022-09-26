@@ -1,13 +1,13 @@
 .product-list {
   margin: 0;
-  margin-bottom: 19px;
+  margin-bottom: 37px;
   padding: 0;
 
   list-style: none;
 
   @media (min-width: $vp-768) {
     margin-bottom: 69px;
-    padding: 26px 38px 0;
+    padding: 10px 38px 0;
 
     border: 1px solid $color-very-light-grey;
   }
@@ -21,28 +21,43 @@
 }
 
 .product-list__item {
-  padding-bottom: 19px;
+  padding-bottom: 15px;
 
   border-bottom: 1px solid $color-very-light-grey;
 
   @media (min-width: $vp-768) {
     padding-bottom: 28px;
+    margin-bottom: 14px;
   }
 
   @media (min-width: $vp-1024) {
     display: flex;
-    padding: 10px 0 10px;
+    margin-bottom: 0;
+    padding: 5px 0;
+  }
+}
+
+.product-list__item:last-child {
+  @media (min-width: $vp-768) {
+    margin-bottom: 1px;
+    border-bottom: none;
+  }
+
+  @media (min-width: $vp-1024) {
+    border-bottom: 1px solid $color-very-light-grey;
   }
 }
 
 .product-list__item-wrapper {
   @media (min-width: $vp-768) {
     display: flex;
+    margin-bottom: 9px;
   }
 
   @media (min-width: $vp-1024) {
     display: grid;
     flex-grow: 1;
+    margin-bottom: 10px;
 
     grid-template-columns: 1fr 1fr;
   }
@@ -51,16 +66,6 @@
 .product-list__item:first-child {
   @media (min-width: $vp-1024) {
     border-top: 1px solid $color-very-light-grey;
-  }
-}
-
-.product-list__item:last-child {
-  @media (min-width: $vp-768) {
-    border-bottom: none;
-  }
-
-  @media (min-width: $vp-1024) {
-    border-bottom: 1px solid $color-very-light-grey;
   }
 }
 
@@ -85,6 +90,7 @@
 .product-list__info {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 15px;
 
   @media (min-width: $vp-768) {
     margin-left: auto;
@@ -100,7 +106,7 @@
   font-size: 14px;
   line-height: 14px;
   font-family: $ff-arial;
-  color: $color-nero;
+  color: $color-charcoal;
 
   @media (min-width: $vp-768) {
     font-size: 16px;
@@ -112,11 +118,19 @@
   font-size: 14px;
   line-height: 14px;
   font-family: $ff-arial;
-  color: $color-nero;
+  color: $color-charcoal;
 
   @media (min-width: $vp-768) {
+    margin-left: 50px;
+
     font-size: 16px;
     line-height: 20px;
+  }
+}
+
+.product-list__description--catalog {
+  @media (min-width: $vp-768) {
+    margin-left: 59px;
   }
 }
 
@@ -132,6 +146,6 @@
   @media (min-width: $vp-1024) {
     align-self: center;
     margin-left: auto;
-    padding: 8px 80px;
+    padding: 8px 95px;
   }
 }
